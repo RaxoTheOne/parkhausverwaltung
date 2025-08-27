@@ -1,0 +1,107 @@
+@startuml Entscheidungstabelle_Schrankensteuerung
+
+title Entscheidungstabelle - Schrankensteuerung
+subtitle Bedingungen und Aktionen fuer die Schrankensteuerung
+
+note as C1
+  C1: Ticket vorhanden
+  - Ja: Fahrzeug hat ein gueltiges Ticket
+  - Nein: Kein Ticket vorhanden
+end note
+
+note as C2
+  C2: Ticket bezahlt
+  - Ja: Ticket ist vollstaendig bezahlt
+  - Nein: Ticket ist nicht bezahlt
+end note
+
+note as C3
+  C3: Ticket gueltig
+  - Ja: Ticket ist nicht abgelaufen
+  - Nein: Ticket ist abgelaufen
+end note
+
+note as C4
+  C4: Fahrzeug erkannt
+  - Ja: Kennzeichen wurde erkannt
+  - Nein: Kennzeichen konnte nicht erkannt werden
+end note
+
+note as C5
+  C5: Kennzeichen stimmt ueberein
+  - Ja: Erkanntes Kennzeichen stimmt mit Ticket ueberein
+  - Nein: Kennzeichen stimmt nicht ueberein
+end note
+
+note as C6
+  C6: Parkplatz freigegeben
+  - Ja: Parkplatz wurde als frei markiert
+  - Nein: Parkplatz ist noch als besetzt markiert
+end note
+
+note as C7
+  C7: Zahlung erfolgreich
+  - Ja: Letzte Zahlung war erfolgreich
+  - Nein: Letzte Zahlung war nicht erfolgreich
+end note
+
+note as C8
+  C8: System funktionsfaehig
+  - Ja: Alle Systemkomponenten funktionieren
+  - Nein: Mindestens eine Komponente hat einen Fehler
+end note
+
+note as A1
+  A1: Schranke oeffnen
+  - Beschreibung: Schranke wird automatisch geoeffnet
+  - Prioritaet: Hoechste Prioritaet
+end note
+
+note as A2
+  A2: Schranke geschlossen halten
+  - Beschreibung: Schranke bleibt geschlossen
+  - Prioritaet: Standard-Verhalten
+end note
+
+note as A3
+  A3: Warnung anzeigen
+  - Beschreibung: Rotes Warnlicht und akustisches Signal
+  - Prioritaet: Mittlere Prioritaet
+end note
+
+note as A4
+  A4: Parkhausverwalter benachrichtigen
+  - Beschreibung: Automatische Benachrichtigung an den Verwalter
+  - Prioritaet: Niedrige Prioritaet
+end note
+
+note as A5
+  A5: Ticket einbehalten
+  - Beschreibung: Ticket wird nicht zurueckgegeben
+  - Prioritaet: Niedrige Prioritaet
+end note
+
+note as A6
+  A6: Fehlermeldung anzeigen
+  - Beschreibung: Spezifische Fehlermeldung auf Display
+  - Prioritaet: Mittlere Prioritaet
+end note
+
+note as A7
+  A7: Notfall-Button aktivieren
+  - Beschreibung: Manueller Notfall-Button wird aktiviert
+  - Prioritaet: Hoechste Prioritaet bei Systemfehlern
+end note
+
+note bottom
+  DIAGRAMMTYP: Entscheidungstabelle (Decision Table)
+  ZIEL: Darstellung der Geschaeftsregeln fuer die Schrankensteuerung
+
+  Anwendung:
+  - 11 Regeln fuer verschiedene Szenarien
+  - 8 Bedingungen (C1-C8)
+  - 7 Aktionen (A1-A7)
+  - Vollstaendige Abdeckung aller Faelle
+end note
+
+@enduml
