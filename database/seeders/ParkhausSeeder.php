@@ -5,8 +5,6 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\Parkhaus;
 use App\Models\Parkplatz;
-use App\Models\Fahrzeug;
-use App\Models\Ticket;
 
 class ParkhausSeeder extends Seeder
 {
@@ -54,37 +52,7 @@ class ParkhausSeeder extends Seeder
             }
         }
 
-        // Erstelle Beispielfahrzeuge
-        $fahrzeug1 = Fahrzeug::create([
-            'kennzeichen' => 'M-AB 1234',
-            'marke' => 'BMW',
-            'modell' => 'X3',
-            'farbe' => 'Schwarz'
-        ]);
-
-        $fahrzeug2 = Fahrzeug::create([
-            'kennzeichen' => 'M-CD 5678',
-            'marke' => 'Audi',
-            'modell' => 'A4',
-            'farbe' => 'Weiß'
-        ]);
-
-        // Erstelle ein Dauerticket
-        Ticket::create([
-            'fahrzeug_id' => $fahrzeug1->id,
-            'parkhaus_id' => $parkhaus1->id,
-            'ticket_typ' => 'dauer',
-            'status' => 'aktiv',
-            'gueltig_bis' => now()->addYear()
-        ]);
-
-        // Erstelle ein Stundenticket
-        Ticket::create([
-            'fahrzeug_id' => $fahrzeug2->id,
-            'parkhaus_id' => $parkhaus2->id,
-            'ticket_typ' => 'stunden',
-            'einfahrts_zeit' => now()->subHours(2),
-            'status' => 'aktiv'
-        ]);
+        // Keine Beispielfahrzeuge oder Tickets erstellen
+        // Diese werden später über die Anwendung hinzugefügt
     }
 }
