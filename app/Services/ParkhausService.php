@@ -40,7 +40,7 @@ class ParkhausService
     /**
      * Simuliere Einfahrt eines Fahrzeugs
      */
-    public function einfahrt(string $kennzeichen, int $parkhausId, string $bildPfad = null): array
+    public function einfahrt(string $kennzeichen, int $parkhausId, ?string $bildPfad = null): array
     {
         return DB::transaction(function () use ($kennzeichen, $parkhausId, $bildPfad) {
             // Finde oder erstelle Fahrzeug
@@ -88,7 +88,7 @@ class ParkhausService
     /**
      * Simuliere Ausfahrt eines Fahrzeugs
      */
-    public function ausfahrt(string $kennzeichen, int $parkhausId, string $bildPfad = null): array
+    public function ausfahrt(string $kennzeichen, int $parkhausId, ?string $bildPfad = null): array
     {
         return DB::transaction(function () use ($kennzeichen, $parkhausId, $bildPfad) {
             $fahrzeug = Fahrzeug::where('kennzeichen', $kennzeichen)->first();
@@ -180,7 +180,7 @@ class ParkhausService
     /**
      * Verarbeite Zahlung
      */
-    public function verarbeiteZahlung(int $ticketId, string $zahlungsart, float $gezahlterBetrag, string $kreditkartenNummer = null): Zahlung
+    public function verarbeiteZahlung(int $ticketId, string $zahlungsart, float $gezahlterBetrag, ?string $kreditkartenNummer = null): Zahlung
     {
         $ticket = Ticket::findOrFail($ticketId);
         $betrag = $this->berechneGebuehren($ticketId);
