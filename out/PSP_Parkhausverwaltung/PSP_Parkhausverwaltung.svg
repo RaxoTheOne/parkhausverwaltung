@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="721px" preserveAspectRatio="none" style="width:7407px;height:721px;" version="1.1" viewBox="0 0 7407 721" width="7407px" zoomAndPan="magnify"><defs><filter height="300%" id="f1q731dn08hqo4" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="463" x="3464.75" y="18.6855">PSP - PROZESSSTRUKTURPLAN - Parkhausverwaltung</text><!--MD5=[2488b440c3d98d8bfa5c7eaf80d3cd4d]
+cluster PARKHAUSVERWALTUNG--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="16,28.6406,195,28.6406,202,52.25,7009,52.25,7009,714.6406,16,714.6406,16,28.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="202" y1="52.25" y2="52.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="173" x="20" y="45.1738">PARKHAUSVERWALTUNG</text><!--MD5=[14eddf640e214d1b41d5e2c96b19b04b]
+cluster 1.0 Benutzeroberflaeche--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="5413,72.6406,5592,72.6406,5599,96.25,6985,96.25,6985,690.6406,5413,690.6406,5413,72.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="5413" x2="5599" y1="96.25" y2="96.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="173" x="5417" y="89.1738">1.0 Benutzeroberflaeche</text><!--MD5=[c89297b4e97d19c2b06909d3b1424039]
+cluster 1.1 Web-Interface--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="6179,116.6406,6308,116.6406,6315,140.25,6961,140.25,6961,387.6406,6179,387.6406,6179,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6179" x2="6315" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="123" x="6183" y="133.1738">1.1 Web-Interface</text><!--MD5=[9ba39b146c378cc14ab69d6a747caf3c]
+cluster 1.2 API-Schnittstelle--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="5437,116.6406,5582,116.6406,5589,140.25,6155,140.25,6155,387.6406,5437,387.6406,5437,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="5437" x2="5589" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="5441" y="133.1738">1.2 API-Schnittstelle</text><!--MD5=[b6d67fa95647eaf142713c5d54c9f16c]
+cluster 1.3 Kassenautomat-Interface--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="6179,458.6406,6385,458.6406,6392,482.25,6644,482.25,6644,666.6406,6179,666.6406,6179,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6179" x2="6392" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="200" x="6183" y="475.1738">1.3 Kassenautomat-Interface</text><!--MD5=[b1e42eb7b850c8e5d5d7b207690a3aec]
+cluster 1.4 Schrankensteuerung-Interface--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="5692,458.6406,5938,458.6406,5945,482.25,6155,482.25,6155,666.6406,5692,666.6406,5692,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="5692" x2="5945" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="240" x="5696" y="475.1738">1.4 Schrankensteuerung-Interface</text><!--MD5=[8b5aba9d2339a418fe5229dcad1d23ea]
+cluster 2.0 Geschaeftslogik--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="3939,72.6406,4083,72.6406,4090,96.25,5389,96.25,5389,690.6406,3939,690.6406,3939,72.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3939" x2="4090" y1="96.25" y2="96.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="138" x="3943" y="89.1738">2.0 Geschaeftslogik</text><!--MD5=[d234e251f2d84b32a4f7749a52c64b6e]
+cluster 2.1 Parkhausverwaltung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="4934,116.6406,5108,116.6406,5115,140.25,5365,140.25,5365,387.6406,4934,387.6406,4934,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4934" x2="5115" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="4938" y="133.1738">2.1 Parkhausverwaltung</text><!--MD5=[93cacb31744c9c1aabca5ecc056c56b6]
+cluster 2.2 Ein-/Ausfahrt-Management--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="4437,116.6406,4653,116.6406,4660,140.25,4910,140.25,4910,387.6406,4437,387.6406,4437,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4437" x2="4660" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="210" x="4441" y="133.1738">2.2 Ein-/Ausfahrt-Management</text><!--MD5=[5bdb4cfd70ad8efe22ec51a60a04f5d8]
+cluster 2.3 Ticket-Management--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="3963,116.6406,4131,116.6406,4138,140.25,4413,140.25,4413,387.6406,3963,387.6406,3963,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3963" x2="4138" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="162" x="3967" y="133.1738">2.3 Ticket-Management</text><!--MD5=[60273b2b0d75ef013f61a69081fa907f]
+cluster 2.4 Zahlungsabwicklung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="4948,458.6406,5121,458.6406,5128,482.25,5365,482.25,5365,666.6406,4948,666.6406,4948,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4948" x2="5128" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="167" x="4952" y="475.1738">2.4 Zahlungsabwicklung</text><!--MD5=[3d98baac46c818b462b0091a71ac2ebf]
+cluster 2.5 Parkplatzverwaltung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="4459,458.6406,4632,458.6406,4639,482.25,4924,482.25,4924,666.6406,4459,666.6406,4459,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4459" x2="4639" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="167" x="4463" y="475.1738">2.5 Parkplatzverwaltung</text><!--MD5=[d42ba7b2c8b6b536f5f448cacdcdfccc]
+cluster 2.6 Schrankensteuerung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="3971,458.6406,4149,458.6406,4156,482.25,4435,482.25,4435,666.6406,3971,666.6406,3971,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3971" x2="4156" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="172" x="3975" y="475.1738">2.6 Schrankensteuerung</text><!--MD5=[d43140cb5b5a35bd1809909c27e7daf1]
+cluster 3.0 Datenzugriff--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="2733,72.6406,2849,72.6406,2856,96.25,3915,96.25,3915,690.6406,2733,690.6406,2733,72.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2733" x2="2856" y1="96.25" y2="96.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="2737" y="89.1738">3.0 Datenzugriff</text><!--MD5=[4527e6cb0e5dcfcac67be63cd7fa8e50]
+cluster 3.1 Datenbankverbindung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="2757,116.6406,2944,116.6406,2951,140.25,3251,140.25,3251,387.6406,2757,387.6406,2757,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2757" x2="2951" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="181" x="2761" y="133.1738">3.1 Datenbankverbindung</text><!--MD5=[2e57b8fdc8a26709c67b5821c2232f3b]
+cluster 3.2 Modelle (Eloquent ORM)--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="3275,116.6406,3477,116.6406,3484,140.25,3891,140.25,3891,387.6406,3275,387.6406,3275,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3275" x2="3484" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="196" x="3279" y="133.1738">3.2 Modelle (Eloquent ORM)</text><!--MD5=[e9d04953bcab05c76210b7d2e9f2befe]
+cluster 3.3 Repository-Pattern--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="3210,458.6406,3372,458.6406,3379,482.25,3674,482.25,3674,666.6406,3210,666.6406,3210,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3210" x2="3379" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="156" x="3214" y="475.1738">3.3 Repository-Pattern</text><!--MD5=[e5494e3ab01d44e6ac4e5c7492a2aeab]
+cluster 3.4 Datenbank-Migrationen--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="2757,458.6406,2952,458.6406,2959,482.25,3186,482.25,3186,666.6406,2757,666.6406,2757,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2757" x2="2959" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="189" x="2761" y="475.1738">3.4 Datenbank-Migrationen</text><!--MD5=[4c4547a63cab5598060a049fb0072a3a]
+cluster 4.0 Externe Schnittstellen--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="40,72.6406,226,72.6406,233,96.25,1028,96.25,1028,690.6406,40,690.6406,40,72.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="233" y1="96.25" y2="96.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="180" x="44" y="89.1738">4.0 Externe Schnittstellen</text><!--MD5=[212860b4dc0e2d01cdae9cb9087dd579]
+cluster 4.1 Zahlungsabwicklung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="92,116.6406,265,116.6406,272,140.25,485,140.25,485,387.6406,92,387.6406,92,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="92" x2="272" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="167" x="96" y="133.1738">4.1 Zahlungsabwicklung</text><!--MD5=[59e45816e83a6f0f6c4f8b74280c79dc]
+cluster 4.2 Videoueberwachung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="509,116.6406,684,116.6406,691,140.25,1004,140.25,1004,387.6406,509,387.6406,509,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="509" x2="691" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="513" y="133.1738">4.2 Videoueberwachung</text><!--MD5=[d1d4588cee62d3f48a460c10058cd206]
+cluster 4.3 Hardware-Steuerung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="480,458.6406,656,458.6406,663,482.25,1004,482.25,1004,666.6406,480,666.6406,480,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="480" x2="663" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="170" x="484" y="475.1738">4.3 Hardware-Steuerung</text><!--MD5=[353cbf8bd65195183b513c07a5b3782f]
+cluster 4.4 Benachrichtigungssystem--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="64,458.6406,276,458.6406,283,482.25,456,482.25,456,666.6406,64,666.6406,64,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="64" x2="283" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="206" x="68" y="475.1738">4.4 Benachrichtigungssystem</text><!--MD5=[feea3e4752bf21ff74d716d82d3d7909]
+cluster 5.0 Hilfsmodule--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="1052,72.6406,1165,72.6406,1172,96.25,2709,96.25,2709,690.6406,1052,690.6406,1052,72.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1052" x2="1172" y1="96.25" y2="96.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="107" x="1056" y="89.1738">5.0 Hilfsmodule</text><!--MD5=[bb65fecaa939822a4fc0bf1d71337a72]
+cluster 5.1 Validierung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="1076,116.6406,1186,116.6406,1193,140.25,1603,140.25,1603,387.6406,1076,387.6406,1076,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1076" x2="1193" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="104" x="1080" y="133.1738">5.1 Validierung</text><!--MD5=[93d437a44b0bbe5099bf909d1ac7c8c3]
+cluster 5.2 Authentifizierung--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="1627,116.6406,1778,116.6406,1785,140.25,2060,140.25,2060,387.6406,1627,387.6406,1627,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1627" x2="1785" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="145" x="1631" y="133.1738">5.2 Authentifizierung</text><!--MD5=[c4ef5c9ec1730e3d79137a7804e0766c]
+cluster 5.3 Logging--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="1591,458.6406,1678,458.6406,1685,482.25,1996,482.25,1996,666.6406,1591,666.6406,1591,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1591" x2="1685" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1595" y="475.1738">5.3 Logging</text><!--MD5=[b6a94363e82bd36c5b6dcc9960d2735a]
+cluster 5.4 Konfiguration--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="1076,458.6406,1202,458.6406,1209,482.25,1567,482.25,1567,666.6406,1076,666.6406,1076,458.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1076" x2="1209" y1="482.25" y2="482.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="1080" y="475.1738">5.4 Konfiguration</text><!--MD5=[096f58f75a95fc8cef1d8fb039697b79]
+cluster 5.5 Utilities--><polygon fill="#FFFFFF" filter="url(#f1q731dn08hqo4)" points="2084,116.6406,2167,116.6406,2174,140.25,2685,140.25,2685,216.6406,2084,216.6406,2084,116.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2084" x2="2174" y1="140.25" y2="140.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="2088" y="133.1738">5.5 Utilities</text><!--MD5=[d987648d0950ce013dbe24db6e05dcba]
+entity 1.1.1 Parkhaus-Uebersicht--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="208" x="6195" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6383" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6381" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6381" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="6210" y="187.1738">1.1.1 Parkhaus-Uebersicht</text><!--MD5=[c51d4cfff2b4b66d87bed5895e2389ae]
+entity 1.1.2 Ein-/Ausfahrt-Formulare--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="228" x="6438" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6646" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6644" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6644" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="6453" y="187.1738">1.1.2 Ein-/Ausfahrt-Formulare</text><!--MD5=[83730a3ad615d28767559c71e6b51b84]
+entity 1.1.3 Kassenautomat-Simulation--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="244" x="6701" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6925" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6923" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6923" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="6716" y="187.1738">1.1.3 Kassenautomat-Simulation</text><!--MD5=[a984c014c42e11de9b364c79123f639c]
+entity 1.1.4 Verwaltungsbereich--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="200" x="6199" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6379" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6377" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6377" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="6214" y="358.1738">1.1.4 Verwaltungsbereich</text><!--MD5=[a7d9a60dbf3340b24e5f95d194318f8b]
+entity 1.1.5 Responsive Design--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="198" x="6434" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6612" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6610" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6610" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="6449" y="358.1738">1.1.5 Responsive Design</text><!--MD5=[ec671ad81f08ffd7d6a344f48e73e7e0]
+entity 1.2.1 REST-Controller--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="180" x="5453" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5613" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5611" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5611" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="5468" y="187.1738">1.2.1 REST-Controller</text><!--MD5=[b70c075bc1067cdd81e3f0949a223083]
+entity 1.2.2 Request-Validierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="205" x="5668.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5853.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5851.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5851.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="5683.5" y="187.1738">1.2.2 Request-Validierung</text><!--MD5=[58e2eb8ef6a483e55aabe5978e347628]
+entity 1.2.3 Response-Formatierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="230" x="5909" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6119" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6117" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6117" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="5924" y="187.1738">1.2.3 Response-Formatierung</text><!--MD5=[87bc608869c8012ef072bf9e08f1a1c5]
+entity 1.2.4 API-Dokumentation--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="197" x="5453.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5630.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5628.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5628.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="5468.5" y="358.1738">1.2.4 API-Dokumentation</text><!--MD5=[6e150b4abe20b249991993afbdf07f79]
+entity 1.2.5 Rate-Limiting--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="159" x="5685.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5824.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5822.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5822.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="5700.5" y="358.1738">1.2.5 Rate-Limiting</text><!--MD5=[211e814f039fea4ef3bb7ef3657d690b]
+entity 1.3.1 Zahlungsabwicklung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="203" x="6197.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6380.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6378.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6378.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="6212.5" y="529.1738">1.3.1 Zahlungsabwicklung</text><!--MD5=[a65ac03472196b97394f419d0bacb98a]
+entity 1.3.2 Ticket-Validierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="190" x="6436" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6606" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6604" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6604" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="6451" y="529.1738">1.3.2 Ticket-Validierung</text><!--MD5=[dffaf10cdc487911bdfb19bc95271c5f]
+entity 1.3.3 Rueckgeld-Berechnung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="225" x="6195.5" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6400.5" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6398.5" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6398.5" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="6210.5" y="637.1738">1.3.3 Rueckgeld-Berechnung</text><!--MD5=[4239835d892becf3476c2183ae7c6724]
+entity 1.3.4 Quittungsdruck--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="172" x="6456" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6608" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6606" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6606" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="6471" y="637.1738">1.3.4 Quittungsdruck</text><!--MD5=[bae81402c4557e915ed6a112067ed5aa]
+entity 1.4.1 Einfahrt-Steuerung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="196" x="5708" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5884" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5882" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5882" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="5723" y="529.1738">1.4.1 Einfahrt-Steuerung</text><!--MD5=[972b243d8834ad658a9534d1305ff5cd]
+entity 1.4.2 Ausfahrt-Steuerung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="200" x="5939" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6119" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6117" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6117" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="5954" y="529.1738">1.4.2 Ausfahrt-Steuerung</text><!--MD5=[3b065e8243bd7a8449d0855c144d1348]
+entity 1.4.3 Notfall-Steuerung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="186" x="5713" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5879" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5877" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5877" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="5728" y="637.1738">1.4.3 Notfall-Steuerung</text><!--MD5=[cfdae1f95f8d80dbdddfd07e831018ce]
+entity 1.4.4 Status-Monitoring--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="187" x="5934.5" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6101.5" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6099.5" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6099.5" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="5949.5" y="637.1738">1.4.4 Status-Monitoring</text><!--MD5=[ed038b9c070fbb5a35f29275894377d9]
+entity 2.1.1 Parkhaus-Erstellung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="204" x="4950" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5134" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5132" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5132" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="4965" y="187.1738">2.1.1 Parkhaus-Erstellung</text><!--MD5=[71577e12e7f8ad3fd286feb59ca283ba]
+entity 2.1.2 Konfiguration--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="160" x="5189" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5329" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5327" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5327" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="5204" y="187.1738">2.1.2 Konfiguration</text><!--MD5=[a43591f4128a68c9cc72fb3e2e6aa9ec]
+entity 2.1.3 Statistiken--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="141" x="4974.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5095.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5093.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5093.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="4989.5" y="358.1738">2.1.3 Statistiken</text><!--MD5=[092ca5b617023cc10b62b7b16a234c6c]
+entity 2.1.4 Belegungsgrad--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="172" x="5151" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5303" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5301" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5301" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="5166" y="358.1738">2.1.4 Belegungsgrad</text><!--MD5=[8dcf66759d1bf9f842b0a2d82be1d55b]
+entity 2.2.1 Einfahrt-Erfassung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="194" x="4467" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4641" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4639" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4639" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="4482" y="187.1738">2.2.1 Einfahrt-Erfassung</text><!--MD5=[15cc52b69a7fa9b7551a675e55a93d59]
+entity 2.2.2 Ausfahrt-Erfassung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="198" x="4696" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4874" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4872" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4872" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="4711" y="187.1738">2.2.2 Ausfahrt-Erfassung</text><!--MD5=[028e6e260b7ba052b672b79aebb3b96e]
+entity 2.2.3 Kennzeichen-Erkennung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="231" x="4453.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4664.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4662.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4662.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="4468.5" y="358.1738">2.2.3 Kennzeichen-Erkennung</text><!--MD5=[fb8bd2ce15f1f0550e156542fbd01a32]
+entity 2.2.4 Foto-Erfassung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="174" x="4720" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4874" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4872" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4872" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="4735" y="358.1738">2.2.4 Foto-Erfassung</text><!--MD5=[dde349ba838fc1a0dbe3ebb4ea18a4e3]
+entity 2.3.1 Ticket-Erstellung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="182" x="3984" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4146" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4144" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4144" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="3999" y="187.1738">2.3.1 Ticket-Erstellung</text><!--MD5=[950747ff467841dcb0d24c8a0aea27f4]
+entity 2.3.2 Ticket-Validierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="190" x="4201" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4371" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4369" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4369" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="4216" y="187.1738">2.3.2 Ticket-Validierung</text><!--MD5=[b0ae566d0ed42f5802c823c754ba2c02]
+entity 2.3.3 Ticket-Status--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="159" x="3979.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4118.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4116.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4116.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="3994.5" y="358.1738">2.3.3 Ticket-Status</text><!--MD5=[3877563c1bc43a68a29a5c90c5f2ed90]
+entity 2.3.4 Dauerticket-Verwaltung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="223" x="4173.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4376.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4374.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4374.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="4188.5" y="358.1738">2.3.4 Dauerticket-Verwaltung</text><!--MD5=[b6b24b4908d6708f633a12f2b0e455c1]
+entity 2.4.1 Barzahlung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="147" x="4964.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5091.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5089.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5089.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="4979.5" y="529.1738">2.4.1 Barzahlung</text><!--MD5=[d53af3f23e606eb93e125f611df1106c]
+entity 2.4.2 Kreditkartenzahlung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="202" x="5147" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5329" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5327" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5327" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="5162" y="529.1738">2.4.2 Kreditkartenzahlung</text><!--MD5=[8d42be5fbd3ee37d2991065e17ea1475]
+entity 2.4.3 Ueberweisung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="165" x="4964.5" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5109.5" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5107.5" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5107.5" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="4979.5" y="637.1738">2.4.3 Ueberweisung</text><!--MD5=[b4ea542fbed02a829e2c8ce0b7dcc343]
+entity 2.4.4 Rueckerstattung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="180" x="5165" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5325" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5323" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5323" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="5180" y="637.1738">2.4.4 Rueckerstattung</text><!--MD5=[e32fdf71e6b48a6c2ba4fa31fc102f99]
+entity 2.5.1 Parkplatz-Zuweisung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="206" x="4475" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4661" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4659" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4659" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="4490" y="529.1738">2.5.1 Parkplatz-Zuweisung</text><!--MD5=[48a9a26565143576b394089ce798033e]
+entity 2.5.2 Status-Verwaltung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="191" x="4716.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4887.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4885.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4885.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="4731.5" y="529.1738">2.5.2 Status-Verwaltung</text><!--MD5=[f7471865c005896914c366341449368b]
+entity 2.5.3 Reservierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="161" x="4497.5" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4638.5" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4636.5" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4636.5" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="4512.5" y="637.1738">2.5.3 Reservierung</text><!--MD5=[64d70100da6e1207999877d9eb84754f]
+entity 2.5.4 Wartung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="4694" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4804" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4802" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4802" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="4709" y="637.1738">2.5.4 Wartung</text><!--MD5=[fe206e62de702218e4f40e5922b8b21d]
+entity 2.6.1 Schranke-oeffnen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="189" x="3987.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4156.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4154.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4154.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="4002.5" y="529.1738">2.6.1 Schranke-oeffnen</text><!--MD5=[064c7f6c62e7f6993ceb965f0f80cb53]
+entity 2.6.2 Schranke-schliessen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="207" x="4211.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4398.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4396.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4396.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="4226.5" y="529.1738">2.6.2 Schranke-schliessen</text><!--MD5=[ecc9324041c15badc8dd4fe49f586f3f]
+entity 2.6.3 Notfall-oeffnung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="176" x="3994" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4150" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4148" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4148" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="4009" y="637.1738">2.6.3 Notfall-oeffnung</text><!--MD5=[42e16b220c83ec58635ad27307b995f1]
+entity 2.6.4 Status-Monitoring--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="187" x="4205.5" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4372.5" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4370.5" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4370.5" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="4220.5" y="637.1738">2.6.4 Status-Monitoring</text><!--MD5=[014082a76385460ab65750ce735ca1cc]
+entity 3.1.1 Connection-Pool--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="181" x="2773.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2934.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2932.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2932.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="2788.5" y="187.1738">3.1.1 Connection-Pool</text><!--MD5=[164965e6b24f0fe2f059875770f881b7]
+entity 3.1.2 Transaktions-Management--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="245" x="2989.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3214.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3212.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3212.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="3004.5" y="187.1738">3.1.2 Transaktions-Management</text><!--MD5=[226b09ab659eeaa175b390804ef597d8]
+entity 3.1.3 Backup-System--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="174" x="2919" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3073" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3071" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3071" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="2934" y="358.1738">3.1.3 Backup-System</text><!--MD5=[6a67bd5caa26c26e2bbc2a585df0c51a]
+entity 3.2.1 Parkhaus-Model--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="179" x="3291.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3450.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3448.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3448.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="3306.5" y="187.1738">3.2.1 Parkhaus-Model</text><!--MD5=[89a95237db45390ce9f60425654e2a79]
+entity 3.2.2 Parkplatz-Model--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="177" x="3505.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3662.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3660.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3660.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="3520.5" y="187.1738">3.2.2 Parkplatz-Model</text><!--MD5=[ec7e4ab49a82d5339f23cd79d8f19b21]
+entity 3.2.3 Ticket-Model--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="157" x="3717.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3854.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3852.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3852.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="3732.5" y="187.1738">3.2.3 Ticket-Model</text><!--MD5=[9c4bd7d0589a7610a422a1e684a2156f]
+entity 3.2.4 Fahrzeug-Model--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="179" x="3291.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3450.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3448.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3448.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="3306.5" y="358.1738">3.2.4 Fahrzeug-Model</text><!--MD5=[965fecda9d1b1d8805d8c9723902dfa3]
+entity 3.2.5 Zahlung-Model--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="170" x="3506" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3656" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3654" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3654" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="3521" y="358.1738">3.2.5 Zahlung-Model</text><!--MD5=[66f9db255a7c33a5a4db3d6b405901fd]
+entity 3.3.1 Parkhaus-Repository--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="209" x="3226.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3415.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3413.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3413.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="3241.5" y="529.1738">3.3.1 Parkhaus-Repository</text><!--MD5=[3e1d774bd56c3fd8c344d17e610a06c3]
+entity 3.3.2 Ticket-Repository--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="187" x="3470.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3637.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3635.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3635.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="3485.5" y="529.1738">3.3.2 Ticket-Repository</text><!--MD5=[fc1987d752e06847807bcaa061cde981]
+entity 3.3.3 Zahlung-Repository--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="200" x="3231" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3411" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3409" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3409" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="3246" y="637.1738">3.3.3 Zahlung-Repository</text><!--MD5=[29ef2f117a40c20b687f439855ba8d20]
+entity 3.4.1 Schema-Updates--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="184" x="2773" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2937" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2935" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2935" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="2788" y="529.1738">3.4.1 Schema-Updates</text><!--MD5=[3e19731865247ec1090f77baf1b4db6f]
+entity 3.4.2 Daten-Migration--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="177" x="2992.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3149.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3147.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3147.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="3007.5" y="529.1738">3.4.2 Daten-Migration</text><!--MD5=[c1f5a4ac8b6e46d255ce6aedca436ab4]
+entity 3.4.3 Rollback-Funktionen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="206" x="2773" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2959" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2957" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2957" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="2788" y="637.1738">3.4.3 Rollback-Funktionen</text><!--MD5=[e5bd2927ece9848233867572d26af331]
+entity 4.1.1 Bank-API--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="134" x="108" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="222" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="220" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="220" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="123" y="187.1738">4.1.1 Bank-API</text><!--MD5=[eeacd74bff534d26c12286e3d0c59648]
+entity 4.1.2 PayPal-Integration--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="192" x="277" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="449" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="447" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="447" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="292" y="187.1738">4.1.2 PayPal-Integration</text><!--MD5=[d10ec9a6531850d88dac51ebde9e8152]
+entity 4.1.3 Kreditkarten-Provider--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="211" x="182.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="373.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="371.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="371.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="197.5" y="358.1738">4.1.3 Kreditkarten-Provider</text><!--MD5=[50a9f31907eb339dca4c4a0479c236e4]
+entity 4.2.1 Kamera-Steuerung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="196" x="525" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="701" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="699" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="699" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="540" y="187.1738">4.2.1 Kamera-Steuerung</text><!--MD5=[166dab303c1efd1f423a4e23510df61e]
+entity 4.2.2 Kennzeichen-Erkennung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="231" x="756.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="967.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="965.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="965.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="771.5" y="187.1738">4.2.2 Kennzeichen-Erkennung</text><!--MD5=[27d394d801893aff92dd8817787a25bf]
+entity 4.2.3 Video-Speicherung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="197" x="525.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="702.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="700.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="700.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="540.5" y="358.1738">4.2.3 Video-Speicherung</text><!--MD5=[948836dc5836400bcb7cdac5b739a5da]
+entity 4.3.1 Schranken-Controller--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="211" x="496.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="687.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="685.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="685.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="511.5" y="529.1738">4.3.1 Schranken-Controller</text><!--MD5=[3971bf51e823d513d2f49f6c9c4915f8]
+entity 4.3.2 Kassenautomat-Steuerung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="245" x="742.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="967.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="965.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="965.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="757.5" y="529.1738">4.3.2 Kassenautomat-Steuerung</text><!--MD5=[13b2dd9d4e69cd6f5f2780bed9f675cb]
+entity 4.3.3 LED-Anzeigen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="166" x="519" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="665" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="663" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="663" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="534" y="637.1738">4.3.3 LED-Anzeigen</text><!--MD5=[bab4e8fd4ccf89c7a94f5f4f25dcbf99]
+entity 4.4.1 E-Mail-Service--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="167" x="80.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="227.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="225.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="225.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="95.5" y="529.1738">4.4.1 E-Mail-Service</text><!--MD5=[02a7f509d6b746aeba2deb89d7884613]
+entity 4.4.2 SMS-Service--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="157" x="282.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="419.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="417.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="417.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="297.5" y="529.1738">4.4.2 SMS-Service</text><!--MD5=[0391c6faa3cbfbb7a975b4c8363de919]
+entity 4.4.3 Push-Benachrichtigungen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="239" x="80.5" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="299.5" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="297.5" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="297.5" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="95.5" y="637.1738">4.4.3 Push-Benachrichtigungen</text><!--MD5=[732c77fe3134765887f1700e819e8651]
+entity 5.1.1 Eingabe-Validierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="204" x="1092" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1276" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1274" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1274" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="1107" y="187.1738">5.1.1 Eingabe-Validierung</text><!--MD5=[74a9a3d3df1605336fd4b754890e3f50]
+entity 5.1.2 Geschaeftsregel-Validierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="256" x="1331" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1567" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1565" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1565" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="1346" y="187.1738">5.1.2 Geschaeftsregel-Validierung</text><!--MD5=[a44fc237f9940bb258cdaf7de6d9c0a7]
+entity 5.1.3 Datenintegritaet--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="177" x="1257.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1414.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1412.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1412.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1272.5" y="358.1738">5.1.3 Datenintegritaet</text><!--MD5=[6d264191d16f56c31454cdf55cbbcb03]
+entity 5.2.1 Login-System--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="162" x="1643" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1785" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1783" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1783" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1658" y="187.1738">5.2.1 Login-System</text><!--MD5=[3bbb5c1a8f853d1bb80c8f05ea629a39]
+entity 5.2.2 Rollen-Management--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="203" x="1840.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2023.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2021.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2021.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="1855.5" y="187.1738">5.2.2 Rollen-Management</text><!--MD5=[e46ffa4f4e22bff343018cea1b940fdc]
+entity 5.2.3 Session-Management--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="213" x="1643.5" y="323.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1836.5" y="328.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1834.5" y="330.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1834.5" y="334.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1658.5" y="358.1738">5.2.3 Session-Management</text><!--MD5=[bd1e17d8d7bb033be09f5433d7da084e]
+entity 5.3.1 Fehler-Logging--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="173" x="1607.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1760.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1758.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1758.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1622.5" y="529.1738">5.3.1 Fehler-Logging</text><!--MD5=[b3d42669910e8835b96ba8e7f98f857e]
+entity 5.3.2 Audit-Logging--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="164" x="1816" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1960" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1958" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1958" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1831" y="529.1738">5.3.2 Audit-Logging</text><!--MD5=[f7859aa0d4b80edbcc9036dec6d61208]
+entity 5.3.3 Performance-Monitoring--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="228" x="1607" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1815" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1813" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1813" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="1622" y="637.1738">5.3.3 Performance-Monitoring</text><!--MD5=[b8f289da3d5af70b18cf6440d24c064b]
+entity 5.4.1 Umgebungsvariablen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="209" x="1092.5" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1281.5" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1279.5" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1279.5" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="1107.5" y="529.1738">5.4.1 Umgebungsvariablen</text><!--MD5=[5348a3e480166f7690a731512e4b69da]
+entity 5.4.2 Konfigurationsdateien--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="214" x="1337" y="494.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1531" y="499.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1529" y="501.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1529" y="505.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1352" y="529.1738">5.4.2 Konfigurationsdateien</text><!--MD5=[4d4240afb4f96fe0c787a31344a0534c]
+entity 5.4.3 Dynamische Konfiguration--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="241" x="1092.5" y="602.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1313.5" y="607.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1311.5" y="609.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1311.5" y="613.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="1107.5" y="637.1738">5.4.3 Dynamische Konfiguration</text><!--MD5=[3dbfd20de838373750101260055815ad]
+entity 5.5.1 Hilfsfunktionen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="168" x="2501" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2649" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2647" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2647" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="2516" y="187.1738">5.5.1 Hilfsfunktionen</text><!--MD5=[dc518367bee97762f3b39c95f2b6b256]
+entity 5.5.2 Formatierung--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="161" x="2304.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2445.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2443.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2443.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="2319.5" y="187.1738">5.5.2 Formatierung</text><!--MD5=[71685d1fee3cdc186764f39ccab25678]
+entity 5.5.3 Berechnungen--><rect fill="#FEFECE" filter="url(#f1q731dn08hqo4)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="169" x="2100.5" y="152.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2249.5" y="157.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2247.5" y="159.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2247.5" y="163.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="2115.5" y="187.1738">5.5.3 Berechnungen</text><path d="M7025.5,260.6406 L7025.5,434.1563 L7398.5,434.1563 L7398.5,270.6406 L7388.5,260.6406 L7025.5,260.6406 " fill="#FBFB77" filter="url(#f1q731dn08hqo4)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M7388.5,260.6406 L7388.5,270.6406 L7398.5,270.6406 L7388.5,260.6406 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="259" x="7031.5" y="279.1357">DIAGRAMMTYP: PSP (Prozessstrukturplan)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="297" x="7031.5" y="295.4873">ZIEL: Hierarchische Darstellung der Systemstruktur</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="7035.5" y="311.8389"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="7031.5" y="328.1904">Struktur:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="7031.5" y="344.542">- Level 0: Hauptsystem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="206" x="7031.5" y="360.8936">- Level 1: Hauptmodule (5 Bereiche)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="7031.5" y="377.2451">- Level 2: Detaillierte Module</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="7031.5" y="393.5967">- Level 3: Einzelne Komponenten</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="7035.5" y="409.9482"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="352" x="7031.5" y="426.2998">Anwendung: Projektplanung, Modulstruktur, Abhaengigkeiten</text><!--MD5=[d0adf33b7013eaf04ca3cc323e1cf8d1]
+link 5.5.3 Berechnungen to GMN117--><path d="M2224.8,200.7606 C2243.1,210.1206 2265.5,219.8406 2287,224.6406 C2540.43,281.2406 6705.02,216.9906 6961,260.6406 C6982.11,264.2406 7003.84,269.3706 7025.26,275.3606 " fill="none" id="5.5.3 Berechnungen-GMN117" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[63788a1ad6acac3aa99f60e9d21613b0]
+link 1.1.1 Parkhaus-Uebersicht to 1.1.2 Ein-/Ausfahrt-Formulare--><!--MD5=[69abe160ddfe00190589acbbd891a38d]
+link 1.1.2 Ein-/Ausfahrt-Formulare to 1.1.3 Kassenautomat-Simulation--><!--MD5=[58502a1ddb04b1f2769bef062c1c11e7]
+link 1.1.1 Parkhaus-Uebersicht to 1.1.4 Verwaltungsbereich--><!--MD5=[5bbf0e382cf419ebe7a1dccde37d8332]
+link 1.1.4 Verwaltungsbereich to 1.1.5 Responsive Design--><!--MD5=[50ae74d20334e9b665b47ac7cf57143d]
+link 1.2.1 REST-Controller to 1.2.2 Request-Validierung--><!--MD5=[5b6e5788832318eccd25937f639b4992]
+link 1.2.2 Request-Validierung to 1.2.3 Response-Formatierung--><!--MD5=[2a5169557d8c219ba6a87fc595a0be23]
+link 1.2.1 REST-Controller to 1.2.4 API-Dokumentation--><!--MD5=[63447568cc10b6b20282a41c25949374]
+link 1.2.4 API-Dokumentation to 1.2.5 Rate-Limiting--><!--MD5=[14b4eecb05da3f10a49261e5be2eee79]
+link 1.3.1 Zahlungsabwicklung to 1.3.2 Ticket-Validierung--><!--MD5=[960cd7fd9256ed4a709671aa678b0581]
+link 1.3.1 Zahlungsabwicklung to 1.3.3 Rueckgeld-Berechnung--><!--MD5=[98a732e66b42169722b48ae14900d538]
+link 1.3.3 Rueckgeld-Berechnung to 1.3.4 Quittungsdruck--><!--MD5=[c607bcbbd89769e14689aca4479c59ef]
+link 1.4.1 Einfahrt-Steuerung to 1.4.2 Ausfahrt-Steuerung--><!--MD5=[f8d06ceeb836d5aea01fa04bfc9d995e]
+link 1.4.1 Einfahrt-Steuerung to 1.4.3 Notfall-Steuerung--><!--MD5=[317a33ac7e8da60082f34bd658da30e7]
+link 1.4.3 Notfall-Steuerung to 1.4.4 Status-Monitoring--><!--MD5=[34e1ffca7c216a99dccf40a2038b3300]
+link 2.1.1 Parkhaus-Erstellung to 2.1.2 Konfiguration--><!--MD5=[a2ddc8e0c3617abf19f3562d8abbfdb4]
+link 2.1.1 Parkhaus-Erstellung to 2.1.3 Statistiken--><!--MD5=[3679d03c722fd41c076ed6648d97445c]
+link 2.1.3 Statistiken to 2.1.4 Belegungsgrad--><!--MD5=[3d3aa628a9f68a9c99cdf3b9a6438c32]
+link 2.2.1 Einfahrt-Erfassung to 2.2.2 Ausfahrt-Erfassung--><!--MD5=[2d287597e24589c8b8e2d9b12d824872]
+link 2.2.1 Einfahrt-Erfassung to 2.2.3 Kennzeichen-Erkennung--><!--MD5=[83576b0cbd33b24e0e867c0a775e5911]
+link 2.2.3 Kennzeichen-Erkennung to 2.2.4 Foto-Erfassung--><!--MD5=[f5946b85c4b51acbcf0fe84ec79e2701]
+link 2.3.1 Ticket-Erstellung to 2.3.2 Ticket-Validierung--><!--MD5=[b37dd8528873b870a76466cbd5c14ea0]
+link 2.3.1 Ticket-Erstellung to 2.3.3 Ticket-Status--><!--MD5=[4b304d8d68b08d6d5c953663c91234d8]
+link 2.3.3 Ticket-Status to 2.3.4 Dauerticket-Verwaltung--><!--MD5=[6ef04065eec204213393930d33f7c036]
+link 2.4.1 Barzahlung to 2.4.2 Kreditkartenzahlung--><!--MD5=[582f3554f17f63985520a1489dab6507]
+link 2.4.1 Barzahlung to 2.4.3 Ueberweisung--><!--MD5=[b75c99f924377267b8b0cbedf1bd3a02]
+link 2.4.3 Ueberweisung to 2.4.4 Rueckerstattung--><!--MD5=[81c3000784db8438079e7f09ff489fb5]
+link 2.5.1 Parkplatz-Zuweisung to 2.5.2 Status-Verwaltung--><!--MD5=[8c1f3a96ce456b195bc104ca56b616e8]
+link 2.5.1 Parkplatz-Zuweisung to 2.5.3 Reservierung--><!--MD5=[3684bd19dc23a0c82f193fb44bc681c8]
+link 2.5.3 Reservierung to 2.5.4 Wartung--><!--MD5=[6a046088657dc5fd134cfb6b6c86c1a8]
+link 2.6.1 Schranke-oeffnen to 2.6.2 Schranke-schliessen--><!--MD5=[b735978b56ee6519a9af74edb3734d87]
+link 2.6.1 Schranke-oeffnen to 2.6.3 Notfall-oeffnung--><!--MD5=[7ff5ac784e978a17277b955719ce7226]
+link 2.6.3 Notfall-oeffnung to 2.6.4 Status-Monitoring--><!--MD5=[3714b418a799443824884478f12eb57e]
+link 3.1.1 Connection-Pool to 3.1.2 Transaktions-Management--><!--MD5=[5b968610b74e67a7bc6900fe2073589a]
+link 3.1.1 Connection-Pool to 3.1.3 Backup-System--><!--MD5=[a1d7eeeb3c357a6a7d4c89b093ae2f68]
+link 3.2.1 Parkhaus-Model to 3.2.2 Parkplatz-Model--><!--MD5=[3ba210de9c0d13d8abdaeb8439cf3b68]
+link 3.2.2 Parkplatz-Model to 3.2.3 Ticket-Model--><!--MD5=[01575cc89626601552e38fbf50d53cac]
+link 3.2.1 Parkhaus-Model to 3.2.4 Fahrzeug-Model--><!--MD5=[070ec4e91057d2157f4f86a1b86b9c6f]
+link 3.2.4 Fahrzeug-Model to 3.2.5 Zahlung-Model--><!--MD5=[8bd96f5f3a79f0e997030a6e5d9b6c62]
+link 3.3.1 Parkhaus-Repository to 3.3.2 Ticket-Repository--><!--MD5=[34d2f0298ceb28d8e19e489fe4c64c10]
+link 3.3.1 Parkhaus-Repository to 3.3.3 Zahlung-Repository--><!--MD5=[c703bd57b34b87be7652e12bf58f7774]
+link 3.4.1 Schema-Updates to 3.4.2 Daten-Migration--><!--MD5=[2375783a6a5810ea27436de67b3322c4]
+link 3.4.1 Schema-Updates to 3.4.3 Rollback-Funktionen--><!--MD5=[578f753957f1d30a70983e02459c40a9]
+link 4.1.1 Bank-API to 4.1.2 PayPal-Integration--><!--MD5=[0807df0bbbccd4b1046b6c3daa257ffa]
+link 4.1.1 Bank-API to 4.1.3 Kreditkarten-Provider--><!--MD5=[36dea614f53c0f12ec1a098d4d27267f]
+link 4.2.1 Kamera-Steuerung to 4.2.2 Kennzeichen-Erkennung--><!--MD5=[a9a305df5ae067e08e017d9b11d71acc]
+link 4.2.1 Kamera-Steuerung to 4.2.3 Video-Speicherung--><!--MD5=[b14f6a763283287e80b16f82198fbd04]
+link 4.3.1 Schranken-Controller to 4.3.2 Kassenautomat-Steuerung--><!--MD5=[6e2f04ac4a9b080148dd2eb56d00041c]
+link 4.3.1 Schranken-Controller to 4.3.3 LED-Anzeigen--><!--MD5=[7cae2c1bfb48a31e5d8c747321abc89e]
+link 4.4.1 E-Mail-Service to 4.4.2 SMS-Service--><!--MD5=[69d8cc44f67e7124b527839c20ce9a7d]
+link 4.4.1 E-Mail-Service to 4.4.3 Push-Benachrichtigungen--><!--MD5=[edff0e6b27a38186a0d2bf73aad3425c]
+link 5.1.1 Eingabe-Validierung to 5.1.2 Geschaeftsregel-Validierung--><!--MD5=[0d5ec1a1ff2747f2c1eaa5d2232b38ec]
+link 5.1.1 Eingabe-Validierung to 5.1.3 Datenintegritaet--><!--MD5=[102f0491649eee0e82f22ba330a0a36e]
+link 5.2.1 Login-System to 5.2.2 Rollen-Management--><!--MD5=[a096934df8620f99eac60cf4a6bc174b]
+link 5.2.1 Login-System to 5.2.3 Session-Management--><!--MD5=[754cc549892ddc535b5907b34478ca23]
+link 5.3.1 Fehler-Logging to 5.3.2 Audit-Logging--><!--MD5=[98c48f1cbb4e6521306cf83ad5aa21a6]
+link 5.3.1 Fehler-Logging to 5.3.3 Performance-Monitoring--><!--MD5=[2b41eb38fa3064d1140fece18903c221]
+link 5.4.1 Umgebungsvariablen to 5.4.2 Konfigurationsdateien--><!--MD5=[e35fb49a202d759cb880ebc6d14e5d03]
+link 5.4.1 Umgebungsvariablen to 5.4.3 Dynamische Konfiguration--><!--MD5=[380a16ce746a7c4ad9011c248cdfa5d3]
+link 1.1.3 Kassenautomat-Simulation to 1.2.1 REST-Controller--><!--MD5=[d96363d5b6fd9317a0d80409413c6dfd]
+link 1.1.4 Verwaltungsbereich to 1.3.1 Zahlungsabwicklung--><!--MD5=[f4ccd81f872202c8aa66bd79485b9184]
+link 1.3.2 Ticket-Validierung to 1.4.1 Einfahrt-Steuerung--><!--MD5=[2be2012414105900e0fd4b5dfef0aff5]
+link 2.1.2 Konfiguration to 2.2.1 Einfahrt-Erfassung--><!--MD5=[b2828aeb0e279cfd4dc50d888388c37e]
+link 2.2.2 Ausfahrt-Erfassung to 2.3.1 Ticket-Erstellung--><!--MD5=[e519cd329fe0ad0563357bc15f43976d]
+link 2.1.3 Statistiken to 2.4.1 Barzahlung--><!--MD5=[533187ff553e8e18541385ac74e9614d]
+link 2.4.2 Kreditkartenzahlung to 2.5.1 Parkplatz-Zuweisung--><!--MD5=[397621cc80add45c85a362115991ffb5]
+link 2.5.2 Status-Verwaltung to 2.6.1 Schranke-oeffnen--><!--MD5=[85a743b81c756cdb3869118bc57690f0]
+link 3.1.2 Transaktions-Management to 3.2.1 Parkhaus-Model--><!--MD5=[2961023db58663d665de5a5c36fa902f]
+link 3.1.3 Backup-System to 3.3.1 Parkhaus-Repository--><!--MD5=[4109e19907cba4d69a54e41a9473f2db]
+link 3.3.2 Ticket-Repository to 3.4.1 Schema-Updates--><!--MD5=[38aff19066144066de18d28b1207a7f9]
+link 4.1.2 PayPal-Integration to 4.2.1 Kamera-Steuerung--><!--MD5=[225be1e238a56940a6102216e9d2900d]
+link 4.1.3 Kreditkarten-Provider to 4.3.1 Schranken-Controller--><!--MD5=[f52a77660b68088cac37039eb68a9113]
+link 4.3.2 Kassenautomat-Steuerung to 4.4.1 E-Mail-Service--><!--MD5=[803e1eb6c60d4677617aa159d7ae973e]
+link 5.1.2 Geschaeftsregel-Validierung to 5.2.1 Login-System--><!--MD5=[6d86d4fd402f93356a7d5da6aee44938]
+link 5.1.3 Datenintegritaet to 5.3.1 Fehler-Logging--><!--MD5=[d7282534b668ccad7e800ed4638e9d83]
+link 5.3.2 Audit-Logging to 5.4.1 Umgebungsvariablen--><!--MD5=[1364d0bdcac4697f78efccbc7e614965]
+@startuml PSP_Parkhausverwaltung
+
+title PSP - PROZESSSTRUKTURPLAN - Parkhausverwaltung
+
+' Hauptstruktur (Level 0)
+package "PARKHAUSVERWALTUNG" {
+    package "1.0 Benutzeroberflaeche" {
+        package "1.1 Web-Interface" {
+            [1.1.1 Parkhaus-Uebersicht]
+            [1.1.2 Ein-/Ausfahrt-Formulare]
+            [1.1.3 Kassenautomat-Simulation]
+            [1.1.4 Verwaltungsbereich]
+            [1.1.5 Responsive Design]
+        }
+
+        package "1.2 API-Schnittstelle" {
+            [1.2.1 REST-Controller]
+            [1.2.2 Request-Validierung]
+            [1.2.3 Response-Formatierung]
+            [1.2.4 API-Dokumentation]
+            [1.2.5 Rate-Limiting]
+        }
+
+        package "1.3 Kassenautomat-Interface" {
+            [1.3.1 Zahlungsabwicklung]
+            [1.3.2 Ticket-Validierung]
+            [1.3.3 Rueckgeld-Berechnung]
+            [1.3.4 Quittungsdruck]
+        }
+
+        package "1.4 Schrankensteuerung-Interface" {
+            [1.4.1 Einfahrt-Steuerung]
+            [1.4.2 Ausfahrt-Steuerung]
+            [1.4.3 Notfall-Steuerung]
+            [1.4.4 Status-Monitoring]
+        }
+    }
+
+    package "2.0 Geschaeftslogik" {
+        package "2.1 Parkhausverwaltung" {
+            [2.1.1 Parkhaus-Erstellung]
+            [2.1.2 Konfiguration]
+            [2.1.3 Statistiken]
+            [2.1.4 Belegungsgrad]
+        }
+
+        package "2.2 Ein-/Ausfahrt-Management" {
+            [2.2.1 Einfahrt-Erfassung]
+            [2.2.2 Ausfahrt-Erfassung]
+            [2.2.3 Kennzeichen-Erkennung]
+            [2.2.4 Foto-Erfassung]
+        }
+
+        package "2.3 Ticket-Management" {
+            [2.3.1 Ticket-Erstellung]
+            [2.3.2 Ticket-Validierung]
+            [2.3.3 Ticket-Status]
+            [2.3.4 Dauerticket-Verwaltung]
+        }
+
+        package "2.4 Zahlungsabwicklung" {
+            [2.4.1 Barzahlung]
+            [2.4.2 Kreditkartenzahlung]
+            [2.4.3 Ueberweisung]
+            [2.4.4 Rueckerstattung]
+        }
+
+        package "2.5 Parkplatzverwaltung" {
+            [2.5.1 Parkplatz-Zuweisung]
+            [2.5.2 Status-Verwaltung]
+            [2.5.3 Reservierung]
+            [2.5.4 Wartung]
+        }
+
+        package "2.6 Schrankensteuerung" {
+            [2.6.1 Schranke-oeffnen]
+            [2.6.2 Schranke-schliessen]
+            [2.6.3 Notfall-oeffnung]
+            [2.6.4 Status-Monitoring]
+        }
+    }
+
+    package "3.0 Datenzugriff" {
+        package "3.1 Datenbankverbindung" {
+            [3.1.1 Connection-Pool]
+            [3.1.2 Transaktions-Management]
+            [3.1.3 Backup-System]
+        }
+
+        package "3.2 Modelle (Eloquent ORM)" {
+            [3.2.1 Parkhaus-Model]
+            [3.2.2 Parkplatz-Model]
+            [3.2.3 Ticket-Model]
+            [3.2.4 Fahrzeug-Model]
+            [3.2.5 Zahlung-Model]
+        }
+
+        package "3.3 Repository-Pattern" {
+            [3.3.1 Parkhaus-Repository]
+            [3.3.2 Ticket-Repository]
+            [3.3.3 Zahlung-Repository]
+        }
+
+        package "3.4 Datenbank-Migrationen" {
+            [3.4.1 Schema-Updates]
+            [3.4.2 Daten-Migration]
+            [3.4.3 Rollback-Funktionen]
+        }
+    }
+
+    package "4.0 Externe Schnittstellen" {
+        package "4.1 Zahlungsabwicklung" {
+            [4.1.1 Bank-API]
+            [4.1.2 PayPal-Integration]
+            [4.1.3 Kreditkarten-Provider]
+        }
+
+        package "4.2 Videoueberwachung" {
+            [4.2.1 Kamera-Steuerung]
+            [4.2.2 Kennzeichen-Erkennung]
+            [4.2.3 Video-Speicherung]
+        }
+
+        package "4.3 Hardware-Steuerung" {
+            [4.3.1 Schranken-Controller]
+            [4.3.2 Kassenautomat-Steuerung]
+            [4.3.3 LED-Anzeigen]
+        }
+
+        package "4.4 Benachrichtigungssystem" {
+            [4.4.1 E-Mail-Service]
+            [4.4.2 SMS-Service]
+            [4.4.3 Push-Benachrichtigungen]
+        }
+    }
+
+    package "5.0 Hilfsmodule" {
+        package "5.1 Validierung" {
+            [5.1.1 Eingabe-Validierung]
+            [5.1.2 Geschaeftsregel-Validierung]
+            [5.1.3 Datenintegritaet]
+        }
+
+        package "5.2 Authentifizierung" {
+            [5.2.1 Login-System]
+            [5.2.2 Rollen-Management]
+            [5.2.3 Session-Management]
+        }
+
+        package "5.3 Logging" {
+            [5.3.1 Fehler-Logging]
+            [5.3.2 Audit-Logging]
+            [5.3.3 Performance-Monitoring]
+        }
+
+        package "5.4 Konfiguration" {
+            [5.4.1 Umgebungsvariablen]
+            [5.4.2 Konfigurationsdateien]
+            [5.4.3 Dynamische Konfiguration]
+        }
+
+        package "5.5 Utilities" {
+            [5.5.1 Hilfsfunktionen]
+            [5.5.2 Formatierung]
+            [5.5.3 Berechnungen]
+        }
+    }
+}
+
+note bottom
+  DIAGRAMMTYP: PSP (Prozessstrukturplan)
+  ZIEL: Hierarchische Darstellung der Systemstruktur
+
+  Struktur:
+  - Level 0: Hauptsystem
+  - Level 1: Hauptmodule (5 Bereiche)
+  - Level 2: Detaillierte Module
+  - Level 3: Einzelne Komponenten
+
+  Anwendung: Projektplanung, Modulstruktur, Abhaengigkeiten
+end note
+
+@enduml
+
+@startuml PSP_Parkhausverwaltung
+
+title PSP - PROZESSSTRUKTURPLAN - Parkhausverwaltung
+
+package "PARKHAUSVERWALTUNG" {
+    package "1.0 Benutzeroberflaeche" {
+        package "1.1 Web-Interface" {
+            [1.1.1 Parkhaus-Uebersicht]
+            [1.1.2 Ein-/Ausfahrt-Formulare]
+            [1.1.3 Kassenautomat-Simulation]
+            [1.1.4 Verwaltungsbereich]
+            [1.1.5 Responsive Design]
+        }
+
+        package "1.2 API-Schnittstelle" {
+            [1.2.1 REST-Controller]
+            [1.2.2 Request-Validierung]
+            [1.2.3 Response-Formatierung]
+            [1.2.4 API-Dokumentation]
+            [1.2.5 Rate-Limiting]
+        }
+
+        package "1.3 Kassenautomat-Interface" {
+            [1.3.1 Zahlungsabwicklung]
+            [1.3.2 Ticket-Validierung]
+            [1.3.3 Rueckgeld-Berechnung]
+            [1.3.4 Quittungsdruck]
+        }
+
+        package "1.4 Schrankensteuerung-Interface" {
+            [1.4.1 Einfahrt-Steuerung]
+            [1.4.2 Ausfahrt-Steuerung]
+            [1.4.3 Notfall-Steuerung]
+            [1.4.4 Status-Monitoring]
+        }
+    }
+
+    package "2.0 Geschaeftslogik" {
+        package "2.1 Parkhausverwaltung" {
+            [2.1.1 Parkhaus-Erstellung]
+            [2.1.2 Konfiguration]
+            [2.1.3 Statistiken]
+            [2.1.4 Belegungsgrad]
+        }
+
+        package "2.2 Ein-/Ausfahrt-Management" {
+            [2.2.1 Einfahrt-Erfassung]
+            [2.2.2 Ausfahrt-Erfassung]
+            [2.2.3 Kennzeichen-Erkennung]
+            [2.2.4 Foto-Erfassung]
+        }
+
+        package "2.3 Ticket-Management" {
+            [2.3.1 Ticket-Erstellung]
+            [2.3.2 Ticket-Validierung]
+            [2.3.3 Ticket-Status]
+            [2.3.4 Dauerticket-Verwaltung]
+        }
+
+        package "2.4 Zahlungsabwicklung" {
+            [2.4.1 Barzahlung]
+            [2.4.2 Kreditkartenzahlung]
+            [2.4.3 Ueberweisung]
+            [2.4.4 Rueckerstattung]
+        }
+
+        package "2.5 Parkplatzverwaltung" {
+            [2.5.1 Parkplatz-Zuweisung]
+            [2.5.2 Status-Verwaltung]
+            [2.5.3 Reservierung]
+            [2.5.4 Wartung]
+        }
+
+        package "2.6 Schrankensteuerung" {
+            [2.6.1 Schranke-oeffnen]
+            [2.6.2 Schranke-schliessen]
+            [2.6.3 Notfall-oeffnung]
+            [2.6.4 Status-Monitoring]
+        }
+    }
+
+    package "3.0 Datenzugriff" {
+        package "3.1 Datenbankverbindung" {
+            [3.1.1 Connection-Pool]
+            [3.1.2 Transaktions-Management]
+            [3.1.3 Backup-System]
+        }
+
+        package "3.2 Modelle (Eloquent ORM)" {
+            [3.2.1 Parkhaus-Model]
+            [3.2.2 Parkplatz-Model]
+            [3.2.3 Ticket-Model]
+            [3.2.4 Fahrzeug-Model]
+            [3.2.5 Zahlung-Model]
+        }
+
+        package "3.3 Repository-Pattern" {
+            [3.3.1 Parkhaus-Repository]
+            [3.3.2 Ticket-Repository]
+            [3.3.3 Zahlung-Repository]
+        }
+
+        package "3.4 Datenbank-Migrationen" {
+            [3.4.1 Schema-Updates]
+            [3.4.2 Daten-Migration]
+            [3.4.3 Rollback-Funktionen]
+        }
+    }
+
+    package "4.0 Externe Schnittstellen" {
+        package "4.1 Zahlungsabwicklung" {
+            [4.1.1 Bank-API]
+            [4.1.2 PayPal-Integration]
+            [4.1.3 Kreditkarten-Provider]
+        }
+
+        package "4.2 Videoueberwachung" {
+            [4.2.1 Kamera-Steuerung]
+            [4.2.2 Kennzeichen-Erkennung]
+            [4.2.3 Video-Speicherung]
+        }
+
+        package "4.3 Hardware-Steuerung" {
+            [4.3.1 Schranken-Controller]
+            [4.3.2 Kassenautomat-Steuerung]
+            [4.3.3 LED-Anzeigen]
+        }
+
+        package "4.4 Benachrichtigungssystem" {
+            [4.4.1 E-Mail-Service]
+            [4.4.2 SMS-Service]
+            [4.4.3 Push-Benachrichtigungen]
+        }
+    }
+
+    package "5.0 Hilfsmodule" {
+        package "5.1 Validierung" {
+            [5.1.1 Eingabe-Validierung]
+            [5.1.2 Geschaeftsregel-Validierung]
+            [5.1.3 Datenintegritaet]
+        }
+
+        package "5.2 Authentifizierung" {
+            [5.2.1 Login-System]
+            [5.2.2 Rollen-Management]
+            [5.2.3 Session-Management]
+        }
+
+        package "5.3 Logging" {
+            [5.3.1 Fehler-Logging]
+            [5.3.2 Audit-Logging]
+            [5.3.3 Performance-Monitoring]
+        }
+
+        package "5.4 Konfiguration" {
+            [5.4.1 Umgebungsvariablen]
+            [5.4.2 Konfigurationsdateien]
+            [5.4.3 Dynamische Konfiguration]
+        }
+
+        package "5.5 Utilities" {
+            [5.5.1 Hilfsfunktionen]
+            [5.5.2 Formatierung]
+            [5.5.3 Berechnungen]
+        }
+    }
+}
+
+note bottom
+  DIAGRAMMTYP: PSP (Prozessstrukturplan)
+  ZIEL: Hierarchische Darstellung der Systemstruktur
+
+  Struktur:
+  - Level 0: Hauptsystem
+  - Level 1: Hauptmodule (5 Bereiche)
+  - Level 2: Detaillierte Module
+  - Level 3: Einzelne Komponenten
+
+  Anwendung: Projektplanung, Modulstruktur, Abhaengigkeiten
+end note
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(MIT source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
