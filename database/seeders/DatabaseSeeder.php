@@ -11,9 +11,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Füge Parkhaus-Seeder hinzu
+        // Füge Seeder hinzu
         $this->call([
             ParkhausSeeder::class,
+            UserSeeder::class,
+            AdminSeeder::class,
         ]);
     }
 }
