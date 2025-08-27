@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-300">
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold text-center mb-8 text-blue-600">Parkhausverwaltung</h1>
 
@@ -136,7 +136,14 @@
                 document.getElementById('einfahrtForm').reset();
                 ladeParkhaeuser();
             } catch (error) {
-                alert('Fehler bei der Einfahrt: ' + error.response.data.error);
+                let errorMessage = 'Unbekannter Fehler';
+                if (error.response && error.response.data && error.response.data.error) {
+                    errorMessage = error.response.data.error;
+                } else if (error.message) {
+                    errorMessage = error.message;
+                }
+                alert('Fehler bei der Einfahrt: ' + errorMessage);
+                console.error('Einfahrt Fehler:', error);
             }
         });
 
@@ -155,7 +162,14 @@
                 document.getElementById('ausfahrtForm').reset();
                 ladeParkhaeuser();
             } catch (error) {
-                alert('Fehler bei der Ausfahrt: ' + error.response.data.error);
+                let errorMessage = 'Unbekannter Fehler';
+                if (error.response && error.response.data && error.response.data.error) {
+                    errorMessage = error.response.data.error;
+                } else if (error.message) {
+                    errorMessage = error.message;
+                }
+                alert('Fehler bei der Ausfahrt: ' + errorMessage);
+                console.error('Ausfahrt Fehler:', error);
             }
         });
 
