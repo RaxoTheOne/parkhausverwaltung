@@ -1,0 +1,76 @@
+@startuml ERD_Parkhausverwaltung
+
+title ERD - ENTITY-RELATIONSHIP-DIAGRAMM - Parkhausverwaltung
+
+' Entities als Classes (vermeidet Graphviz-Probleme)
+class "Parkhaus" as parkhaus {
+    * id : INT (PK)
+    --
+    name : VARCHAR
+    anzahl_ebenen : INTEGER
+    parkplaetze_pro_ebene : INTEGER
+    preis_pro_stunde : DECIMAL(8,2)
+}
+
+class "Parkplatz" as parkplatz {
+    * id : INT (PK)
+    --
+    * parkhaus_id : INT (FK)
+    ebene : INTEGER
+    parkplatz_nummer : INTEGER
+    status : ENUM
+}
+
+class "Fahrzeug" as fahrzeug {
+    * id : INT (PK)
+    --
+    kennzeichen : VARCHAR (UNIQUE)
+    marke : VARCHAR
+    modell : VARCHAR
+    farbe : VARCHAR
+}
+
+class "Ticket" as ticket {
+    * id : INT (PK)
+    --
+    * fahrzeug_id : INT (FK)
+    * parkhaus_id : INT (FK)
+    ticket_typ : ENUM
+    einfahrts_zeit : TIMESTAMP
+    ausfahrts_zeit : TIMESTAMP
+    betrag : DECIMAL(8,2)
+    status : ENUM
+}
+
+class "Zahlung" as zahlung {
+    * id : INT (PK)
+    --
+    * ticket_id : INT (FK)
+    zahlungsart : ENUM
+    betrag : DECIMAL(8,2)
+    status : ENUM
+}
+
+' Relationships
+parkhaus ||--o{ parkplatz : "hat"
+parkhaus ||--o{ ticket : "generiert"
+fahrzeug ||--o{ ticket : "parkt"
+ticket ||--o{ zahlung : "wird_bezahlt"
+
+' Notes
+note right of parkplatz
+  Status: 'frei', 'besetzt',
+  'reserviert', 'gesperrt'
+end note
+
+note right of ticket
+  Status: 'aktiv', 'abgeschlossen',
+  'storniert'
+end note
+
+note bottom
+  DIAGRAMMTYP: ERD (Entity-Relationship-Diagramm)
+  ZIEL: Darstellung der Datenbankstruktur
+end note
+
+@enduml

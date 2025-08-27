@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="592px" preserveAspectRatio="none" style="width:904px;height:592px;" version="1.1" viewBox="0 0 904 592" width="904px" zoomAndPan="magnify"><defs><filter height="300%" id="fy6pr7y01a4el" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="536" x="176.75" y="18.6855">ERD - ENTITY-RELATIONSHIP-DIAGRAMM - Parkhausverwaltung</text><!--MD5=[7bfba9a60d197f923c32ffaa8a8e6a5e]
+class parkhaus--><rect codeLine="5" fill="#FEFECE" filter="url(#fy6pr7y01a4el)" height="117.1797" id="parkhaus" style="stroke:#A80036;stroke-width:1.5;" width="177" x="126" y="29.6406"/><ellipse cx="183.75" cy="45.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M186.5156,41.5156 Q186.6719,41.2969 186.8594,41.1875 Q187.0469,41.0781 187.2656,41.0781 Q187.6406,41.0781 187.875,41.3438 Q188.1094,41.5938 188.1094,42.2031 L188.1094,43.6563 Q188.1094,44.2656 187.875,44.5313 Q187.6406,44.7969 187.2656,44.7969 Q186.9219,44.7969 186.7188,44.5938 Q186.5156,44.4063 186.4063,43.8906 Q186.3594,43.5313 186.1719,43.3438 Q185.8438,42.9688 185.2344,42.75 Q184.625,42.5313 184,42.5313 Q183.2344,42.5313 182.5938,42.8594 Q181.9688,43.1875 181.4688,43.9375 Q180.9844,44.6875 180.9844,45.7188 L180.9844,46.8125 Q180.9844,48.0469 181.875,48.875 Q182.7656,49.6875 184.3594,49.6875 Q185.2969,49.6875 185.9531,49.4375 Q186.3438,49.2813 186.7656,48.8438 Q187.0313,48.5781 187.1719,48.5 Q187.3281,48.4219 187.5313,48.4219 Q187.8594,48.4219 188.1094,48.6875 Q188.375,48.9375 188.375,49.2813 Q188.375,49.625 188.0313,50.0313 Q187.5313,50.6094 186.7344,50.9375 Q185.6563,51.3906 184.3594,51.3906 Q182.8438,51.3906 181.6406,50.7656 Q180.6563,50.2656 179.9688,49.2031 Q179.2813,48.125 179.2813,46.8438 L179.2813,45.6875 Q179.2813,44.3594 179.8906,43.2188 Q180.5156,42.0625 181.6094,41.4531 Q182.7031,40.8281 183.9375,40.8281 Q184.6719,40.8281 185.3125,41 Q185.9688,41.1563 186.5156,41.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="204.25" y="50.5508">Parkhaus</text><line style="stroke:#A80036;stroke-width:1.5;" x1="127" x2="302" y1="61.6406" y2="61.6406"/><ellipse cx="137" cy="72.6406" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="146" y="77.0596">id : INT (PK)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="127" x2="302" y1="83.4766" y2="83.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="132" y="98.8955">name : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="132" y="112.7314">anzahl_ebenen : INTEGER</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="132" y="126.5674">parkplaetze_pro_ebene : INTEGER</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="132" y="140.4033">preis_pro_stunde : DECIMAL(8,2)</text><!--MD5=[ca9297543862748324d7b5147589cc49]
+class parkplatz--><rect codeLine="14" fill="#FEFECE" filter="url(#fy6pr7y01a4el)" height="117.1797" id="parkplatz" style="stroke:#A80036;stroke-width:1.5;" width="165" x="7" y="245.6406"/><ellipse cx="60.25" cy="261.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M63.0156,257.5156 Q63.1719,257.2969 63.3594,257.1875 Q63.5469,257.0781 63.7656,257.0781 Q64.1406,257.0781 64.375,257.3438 Q64.6094,257.5938 64.6094,258.2031 L64.6094,259.6563 Q64.6094,260.2656 64.375,260.5313 Q64.1406,260.7969 63.7656,260.7969 Q63.4219,260.7969 63.2188,260.5938 Q63.0156,260.4063 62.9063,259.8906 Q62.8594,259.5313 62.6719,259.3438 Q62.3438,258.9688 61.7344,258.75 Q61.125,258.5313 60.5,258.5313 Q59.7344,258.5313 59.0938,258.8594 Q58.4688,259.1875 57.9688,259.9375 Q57.4844,260.6875 57.4844,261.7188 L57.4844,262.8125 Q57.4844,264.0469 58.375,264.875 Q59.2656,265.6875 60.8594,265.6875 Q61.7969,265.6875 62.4531,265.4375 Q62.8438,265.2813 63.2656,264.8438 Q63.5313,264.5781 63.6719,264.5 Q63.8281,264.4219 64.0313,264.4219 Q64.3594,264.4219 64.6094,264.6875 Q64.875,264.9375 64.875,265.2813 Q64.875,265.625 64.5313,266.0313 Q64.0313,266.6094 63.2344,266.9375 Q62.1563,267.3906 60.8594,267.3906 Q59.3438,267.3906 58.1406,266.7656 Q57.1563,266.2656 56.4688,265.2031 Q55.7813,264.125 55.7813,262.8438 L55.7813,261.6875 Q55.7813,260.3594 56.3906,259.2188 Q57.0156,258.0625 58.1094,257.4531 Q59.2031,256.8281 60.4375,256.8281 Q61.1719,256.8281 61.8125,257 Q62.4688,257.1563 63.0156,257.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="80.75" y="266.5508">Parkplatz</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="171" y1="277.6406" y2="277.6406"/><ellipse cx="18" cy="288.6406" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="27" y="293.0596">id : INT (PK)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="8" x2="171" y1="299.4766" y2="299.4766"/><ellipse cx="18" cy="310.4766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="27" y="314.8955">parkhaus_id : INT (FK)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="27" y="328.7314">ebene : INTEGER</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="27" y="342.5674">parkplatz_nummer : INTEGER</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="27" y="356.4033">status : ENUM</text><!--MD5=[4c30e63bf44241176abfa73479094c0d]
+class fahrzeug--><rect codeLine="23" fill="#FEFECE" filter="url(#fy6pr7y01a4el)" height="117.1797" id="fahrzeug" style="stroke:#A80036;stroke-width:1.5;" width="182" x="379.5" y="29.6406"/><ellipse cx="440.75" cy="45.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M443.5156,41.5156 Q443.6719,41.2969 443.8594,41.1875 Q444.0469,41.0781 444.2656,41.0781 Q444.6406,41.0781 444.875,41.3438 Q445.1094,41.5938 445.1094,42.2031 L445.1094,43.6563 Q445.1094,44.2656 444.875,44.5313 Q444.6406,44.7969 444.2656,44.7969 Q443.9219,44.7969 443.7188,44.5938 Q443.5156,44.4063 443.4063,43.8906 Q443.3594,43.5313 443.1719,43.3438 Q442.8438,42.9688 442.2344,42.75 Q441.625,42.5313 441,42.5313 Q440.2344,42.5313 439.5938,42.8594 Q438.9688,43.1875 438.4688,43.9375 Q437.9844,44.6875 437.9844,45.7188 L437.9844,46.8125 Q437.9844,48.0469 438.875,48.875 Q439.7656,49.6875 441.3594,49.6875 Q442.2969,49.6875 442.9531,49.4375 Q443.3438,49.2813 443.7656,48.8438 Q444.0313,48.5781 444.1719,48.5 Q444.3281,48.4219 444.5313,48.4219 Q444.8594,48.4219 445.1094,48.6875 Q445.375,48.9375 445.375,49.2813 Q445.375,49.625 445.0313,50.0313 Q444.5313,50.6094 443.7344,50.9375 Q442.6563,51.3906 441.3594,51.3906 Q439.8438,51.3906 438.6406,50.7656 Q437.6563,50.2656 436.9688,49.2031 Q436.2813,48.125 436.2813,46.8438 L436.2813,45.6875 Q436.2813,44.3594 436.8906,43.2188 Q437.5156,42.0625 438.6094,41.4531 Q439.7031,40.8281 440.9375,40.8281 Q441.6719,40.8281 442.3125,41 Q442.9688,41.1563 443.5156,41.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="461.25" y="50.5508">Fahrzeug</text><line style="stroke:#A80036;stroke-width:1.5;" x1="380.5" x2="560.5" y1="61.6406" y2="61.6406"/><ellipse cx="390.5" cy="72.6406" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="399.5" y="77.0596">id : INT (PK)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="380.5" x2="560.5" y1="83.4766" y2="83.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="385.5" y="98.8955">kennzeichen : VARCHAR (UNIQUE)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="385.5" y="112.7314">marke : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="385.5" y="126.5674">modell : VARCHAR</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="385.5" y="140.4033">farbe : VARCHAR</text><!--MD5=[31b1c9518acef48884f0b10f191fc079]
+class ticket--><rect codeLine="32" fill="#FEFECE" filter="url(#fy6pr7y01a4el)" height="158.6875" id="ticket" style="stroke:#A80036;stroke-width:1.5;" width="162" x="389.5" y="224.6406"/><ellipse cx="450.25" cy="240.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M453.0156,236.5156 Q453.1719,236.2969 453.3594,236.1875 Q453.5469,236.0781 453.7656,236.0781 Q454.1406,236.0781 454.375,236.3438 Q454.6094,236.5938 454.6094,237.2031 L454.6094,238.6563 Q454.6094,239.2656 454.375,239.5313 Q454.1406,239.7969 453.7656,239.7969 Q453.4219,239.7969 453.2188,239.5938 Q453.0156,239.4063 452.9063,238.8906 Q452.8594,238.5313 452.6719,238.3438 Q452.3438,237.9688 451.7344,237.75 Q451.125,237.5313 450.5,237.5313 Q449.7344,237.5313 449.0938,237.8594 Q448.4688,238.1875 447.9688,238.9375 Q447.4844,239.6875 447.4844,240.7188 L447.4844,241.8125 Q447.4844,243.0469 448.375,243.875 Q449.2656,244.6875 450.8594,244.6875 Q451.7969,244.6875 452.4531,244.4375 Q452.8438,244.2813 453.2656,243.8438 Q453.5313,243.5781 453.6719,243.5 Q453.8281,243.4219 454.0313,243.4219 Q454.3594,243.4219 454.6094,243.6875 Q454.875,243.9375 454.875,244.2813 Q454.875,244.625 454.5313,245.0313 Q454.0313,245.6094 453.2344,245.9375 Q452.1563,246.3906 450.8594,246.3906 Q449.3438,246.3906 448.1406,245.7656 Q447.1563,245.2656 446.4688,244.2031 Q445.7813,243.125 445.7813,241.8438 L445.7813,240.6875 Q445.7813,239.3594 446.3906,238.2188 Q447.0156,237.0625 448.1094,236.4531 Q449.2031,235.8281 450.4375,235.8281 Q451.1719,235.8281 451.8125,236 Q452.4688,236.1563 453.0156,236.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="470.75" y="245.5508">Ticket</text><line style="stroke:#A80036;stroke-width:1.5;" x1="390.5" x2="550.5" y1="256.6406" y2="256.6406"/><ellipse cx="400.5" cy="267.6406" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="409.5" y="272.0596">id : INT (PK)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="390.5" x2="550.5" y1="278.4766" y2="278.4766"/><ellipse cx="400.5" cy="289.4766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="409.5" y="293.8955">fahrzeug_id : INT (FK)</text><ellipse cx="400.5" cy="303.3125" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="409.5" y="307.7314">parkhaus_id : INT (FK)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="409.5" y="321.5674">ticket_typ : ENUM</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="409.5" y="335.4033">einfahrts_zeit : TIMESTAMP</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="409.5" y="349.2393">ausfahrts_zeit : TIMESTAMP</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="409.5" y="363.0752">betrag : DECIMAL(8,2)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="409.5" y="376.9111">status : ENUM</text><!--MD5=[a4cbe60ec760fd194391dd4f5c2f59df]
+class zahlung--><rect codeLine="44" fill="#FEFECE" filter="url(#fy6pr7y01a4el)" height="117.1797" id="zahlung" style="stroke:#A80036;stroke-width:1.5;" width="133" x="391" y="461.6406"/><ellipse cx="431.2" cy="477.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M433.9656,473.5156 Q434.1219,473.2969 434.3094,473.1875 Q434.4969,473.0781 434.7156,473.0781 Q435.0906,473.0781 435.325,473.3438 Q435.5594,473.5938 435.5594,474.2031 L435.5594,475.6563 Q435.5594,476.2656 435.325,476.5313 Q435.0906,476.7969 434.7156,476.7969 Q434.3719,476.7969 434.1688,476.5938 Q433.9656,476.4063 433.8563,475.8906 Q433.8094,475.5313 433.6219,475.3438 Q433.2938,474.9688 432.6844,474.75 Q432.075,474.5313 431.45,474.5313 Q430.6844,474.5313 430.0438,474.8594 Q429.4188,475.1875 428.9188,475.9375 Q428.4344,476.6875 428.4344,477.7188 L428.4344,478.8125 Q428.4344,480.0469 429.325,480.875 Q430.2156,481.6875 431.8094,481.6875 Q432.7469,481.6875 433.4031,481.4375 Q433.7938,481.2813 434.2156,480.8438 Q434.4813,480.5781 434.6219,480.5 Q434.7781,480.4219 434.9813,480.4219 Q435.3094,480.4219 435.5594,480.6875 Q435.825,480.9375 435.825,481.2813 Q435.825,481.625 435.4813,482.0313 Q434.9813,482.6094 434.1844,482.9375 Q433.1063,483.3906 431.8094,483.3906 Q430.2938,483.3906 429.0906,482.7656 Q428.1063,482.2656 427.4188,481.2031 Q426.7313,480.125 426.7313,478.8438 L426.7313,477.6875 Q426.7313,476.3594 427.3406,475.2188 Q427.9656,474.0625 429.0594,473.4531 Q430.1531,472.8281 431.3875,472.8281 Q432.1219,472.8281 432.7625,473 Q433.4188,473.1563 433.9656,473.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="450.8" y="482.5508">Zahlung</text><line style="stroke:#A80036;stroke-width:1.5;" x1="392" x2="523" y1="493.6406" y2="493.6406"/><ellipse cx="402" cy="504.6406" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="411" y="509.0596">id : INT (PK)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="392" x2="523" y1="515.4766" y2="515.4766"/><ellipse cx="402" cy="526.4766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="411" y="530.8955">ticket_id : INT (FK)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="411" y="544.7314">zahlungsart : ENUM</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="411" y="558.5674">betrag : DECIMAL(8,2)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="411" y="572.4033">status : ENUM</text><path d="M207,291.1406 L207,300.1406 L172.32,304.1406 L207,308.1406 L207,317.4922 A0,0 0 0 0 207,317.4922 L354,317.4922 A0,0 0 0 0 354,317.4922 L354,301.1406 L344,291.1406 L207,291.1406 A0,0 0 0 0 207,291.1406 " fill="#FBFB77" filter="url(#fy6pr7y01a4el)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M344,291.1406 L344,301.1406 L354,301.1406 L344,291.1406 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="213" y="309.6357">Status: 'frei', 'besetzt',</text><path d="M600.5,291.1406 L600.5,317.4922 L800.5,317.4922 L800.5,301.1406 L790.5,291.1406 L600.5,291.1406 " fill="#FBFB77" filter="url(#fy6pr7y01a4el)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M790.5,291.1406 L790.5,301.1406 L800.5,301.1406 L790.5,291.1406 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="606.5" y="309.6357">Status: 'aktiv', 'abgeschlossen',</text><path d="M559.5,498.6406 L559.5,541.3438 A0,0 0 0 0 559.5,541.3438 L895.5,541.3438 A0,0 0 0 0 895.5,541.3438 L895.5,508.6406 L885.5,498.6406 L728.89,498.6406 L702.03,317.2606 L720.89,498.6406 L559.5,498.6406 A0,0 0 0 0 559.5,498.6406 " fill="#FBFB77" filter="url(#fy6pr7y01a4el)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M885.5,498.6406 L885.5,508.6406 L895.5,508.6406 L885.5,498.6406 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="315" x="565.5" y="517.1357">DIAGRAMMTYP: ERD (Entity-Relationship-Diagramm)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="231" x="565.5" y="533.4873">ZIEL: Darstellung der Datenbankstruktur</text><!--MD5=[61cdb313d222c403efbc0ffdddeaa412]
+link parkhaus to parkplatz--><path codeLine="54" d="M176.8,153.6906 C161.15,180.4806 143.02,211.5106 127.36,238.3206 " fill="none" id="parkhaus-parkplatz" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="127.2474" x2="128.4042" y1="238.4983" y2="248.4312"/><line style="stroke:#A80036;stroke-width:1.0;" x1="127.2474" x2="118.0358" y1="238.4983" y2="242.3901"/><line style="stroke:#A80036;stroke-width:1.0;" x1="127.2474" x2="123.22" y1="238.4983" y2="245.4106"/><ellipse cx="130.268" cy="233.3141" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="175.3688" x2="182.2775" y1="148.2081" y2="152.2418"/><line style="stroke:#A80036;stroke-width:1.0;" x1="173.8562" x2="180.7649" y1="150.7989" y2="154.8325"/><line style="stroke:#A80036;stroke-width:1.0;" x1="176.8064" x2="180.84" y1="153.6793" y2="146.7706"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="18" x="164.5" y="191.1357">hat</text><!--MD5=[104289fa0732d09e8b741351eb4dd76c]
+link parkhaus to ticket--><path codeLine="55" d="M289.62,151.9406 C318.81,176.3406 352.46,204.4606 382.75,229.7906 " fill="none" id="parkhaus-ticket" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="383.0248" x2="393.0106" y1="230.0165" y2="230.5492"/><line style="stroke:#A80036;stroke-width:1.0;" x1="383.0248" x2="385.3094" y1="230.0165" y2="239.752"/><line style="stroke:#A80036;stroke-width:1.0;" x1="383.0248" x2="389.16" y1="230.0165" y2="235.1506"/><ellipse cx="378.4234" cy="226.1659" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="283.947" x2="289.0741" y1="152.4047" y2="146.2636"/><line style="stroke:#A80036;stroke-width:1.0;" x1="286.2499" x2="291.377" y1="154.3274" y2="148.1863"/><line style="stroke:#A80036;stroke-width:1.0;" x1="289.5811" x2="283.44" y1="151.8977" y2="146.7706"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="336.5" y="191.1357">generiert</text><!--MD5=[8a3c6ca7c43fcca279b6d051b65faf52]
+link fahrzeug to ticket--><path codeLine="56" d="M470.5,155.0406 C470.5,174.4306 470.5,195.9306 470.5,216.4106 " fill="none" id="fahrzeug-ticket" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="470.5" x2="476.5" y1="216.5006" y2="224.5006"/><line style="stroke:#A80036;stroke-width:1.0;" x1="470.5" x2="464.5" y1="216.5006" y2="224.5006"/><line style="stroke:#A80036;stroke-width:1.0;" x1="470.5" x2="470.5" y1="216.5006" y2="224.5006"/><ellipse cx="470.5" cy="210.5006" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="466.5" x2="474.5" y1="150.7706" y2="150.7706"/><line style="stroke:#A80036;stroke-width:1.0;" x1="466.5" x2="474.5" y1="153.7706" y2="153.7706"/><line style="stroke:#A80036;stroke-width:1.0;" x1="470.5" x2="470.5" y1="154.7706" y2="146.7706"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="471.5" y="191.1357">parkt</text><!--MD5=[9b3e7e0bc77fbf1be20a6de352b86a96]
+link ticket to zahlung--><path codeLine="57" d="M465.22,392.1306 C463.97,412.6106 462.67,434.1006 461.49,453.4606 " fill="none" id="ticket-zahlung" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="461.4615" x2="466.9796" y1="453.6345" y2="461.9742"/><line style="stroke:#A80036;stroke-width:1.0;" x1="461.4615" x2="455.0004" y1="453.6345" y2="461.267"/><line style="stroke:#A80036;stroke-width:1.0;" x1="461.4615" x2="460.99" y1="453.6345" y2="461.6206"/><ellipse cx="461.815" cy="447.645" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="461.4745" x2="469.4598" y1="387.6604" y2="388.1461"/><line style="stroke:#A80036;stroke-width:1.0;" x1="461.2924" x2="469.2776" y1="390.6549" y2="391.1406"/><line style="stroke:#A80036;stroke-width:1.0;" x1="465.2243" x2="465.71" y1="391.8959" y2="383.9106"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="465.5" y="428.1357">wird_bezahlt</text><!--MD5=[112d7d624de608ba0dd24780326963c0]
+link ticket to GMN14--><path d="M551.81,304.1406 C567.97,304.1406 584.14,304.1406 600.31,304.1406 " fill="none" id="ticket-GMN14" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[7afb0402a7af28d959dc971578480147]
+@startuml ERD_Parkhausverwaltung
+
+title ERD - ENTITY-RELATIONSHIP-DIAGRAMM - Parkhausverwaltung
+
+' Entities als Classes (vermeidet Graphviz-Probleme)
+class "Parkhaus" as parkhaus {
+    * id : INT (PK)
+    - -
+    name : VARCHAR
+    anzahl_ebenen : INTEGER
+    parkplaetze_pro_ebene : INTEGER
+    preis_pro_stunde : DECIMAL(8,2)
+}
+
+class "Parkplatz" as parkplatz {
+    * id : INT (PK)
+    - -
+    * parkhaus_id : INT (FK)
+    ebene : INTEGER
+    parkplatz_nummer : INTEGER
+    status : ENUM
+}
+
+class "Fahrzeug" as fahrzeug {
+    * id : INT (PK)
+    - -
+    kennzeichen : VARCHAR (UNIQUE)
+    marke : VARCHAR
+    modell : VARCHAR
+    farbe : VARCHAR
+}
+
+class "Ticket" as ticket {
+    * id : INT (PK)
+    - -
+    * fahrzeug_id : INT (FK)
+    * parkhaus_id : INT (FK)
+    ticket_typ : ENUM
+    einfahrts_zeit : TIMESTAMP
+    ausfahrts_zeit : TIMESTAMP
+    betrag : DECIMAL(8,2)
+    status : ENUM
+}
+
+class "Zahlung" as zahlung {
+    * id : INT (PK)
+    - -
+    * ticket_id : INT (FK)
+    zahlungsart : ENUM
+    betrag : DECIMAL(8,2)
+    status : ENUM
+}
+
+' Relationships
+parkhaus ||- -o{ parkplatz : "hat"
+parkhaus ||- -o{ ticket : "generiert"
+fahrzeug ||- -o{ ticket : "parkt"
+ticket ||- -o{ zahlung : "wird_bezahlt"
+
+' Notes
+note right of parkplatz
+  Status: 'frei', 'besetzt',
+  'reserviert', 'gesperrt'
+end note
+
+note right of ticket
+  Status: 'aktiv', 'abgeschlossen',
+  'storniert'
+end note
+
+note bottom
+  DIAGRAMMTYP: ERD (Entity-Relationship-Diagramm)
+  ZIEL: Darstellung der Datenbankstruktur
+end note
+
+@enduml
+
+@startuml ERD_Parkhausverwaltung
+
+title ERD - ENTITY-RELATIONSHIP-DIAGRAMM - Parkhausverwaltung
+
+class "Parkhaus" as parkhaus {
+    * id : INT (PK)
+    - -
+    name : VARCHAR
+    anzahl_ebenen : INTEGER
+    parkplaetze_pro_ebene : INTEGER
+    preis_pro_stunde : DECIMAL(8,2)
+}
+
+class "Parkplatz" as parkplatz {
+    * id : INT (PK)
+    - -
+    * parkhaus_id : INT (FK)
+    ebene : INTEGER
+    parkplatz_nummer : INTEGER
+    status : ENUM
+}
+
+class "Fahrzeug" as fahrzeug {
+    * id : INT (PK)
+    - -
+    kennzeichen : VARCHAR (UNIQUE)
+    marke : VARCHAR
+    modell : VARCHAR
+    farbe : VARCHAR
+}
+
+class "Ticket" as ticket {
+    * id : INT (PK)
+    - -
+    * fahrzeug_id : INT (FK)
+    * parkhaus_id : INT (FK)
+    ticket_typ : ENUM
+    einfahrts_zeit : TIMESTAMP
+    ausfahrts_zeit : TIMESTAMP
+    betrag : DECIMAL(8,2)
+    status : ENUM
+}
+
+class "Zahlung" as zahlung {
+    * id : INT (PK)
+    - -
+    * ticket_id : INT (FK)
+    zahlungsart : ENUM
+    betrag : DECIMAL(8,2)
+    status : ENUM
+}
+
+parkhaus ||- -o{ parkplatz : "hat"
+parkhaus ||- -o{ ticket : "generiert"
+fahrzeug ||- -o{ ticket : "parkt"
+ticket ||- -o{ zahlung : "wird_bezahlt"
+
+note right of parkplatz
+  Status: 'frei', 'besetzt',
+end note
+
+note right of ticket
+  Status: 'aktiv', 'abgeschlossen',
+end note
+
+note bottom
+  DIAGRAMMTYP: ERD (Entity-Relationship-Diagramm)
+  ZIEL: Darstellung der Datenbankstruktur
+end note
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(MIT source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

@@ -1,0 +1,25 @@
+@startuml UML_Klassendiagramm
+title UML Klassen Diagramm - Parkhausverwaltung
+
+class Parkhaus {
+    -id: int
+    -name: string
+    +getKapazitaet(): int
+}
+
+class Parkplatz {
+    -id: int
+    -ebene: int
+    +istFrei(): bool
+}
+
+class Ticket {
+    -id: int
+    -nummer: string
+    +getPreis(): decimal
+}
+
+Parkhaus ||--o{ Parkplatz
+Parkplatz ||--o{ Ticket
+
+@enduml
