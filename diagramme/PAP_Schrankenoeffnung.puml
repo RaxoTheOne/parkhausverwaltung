@@ -1,0 +1,50 @@
+@startuml PAP_Schrankenoeffnung
+title PAP: Schrankenöffnung mit Zahlungsprüfung
+
+start
+
+:Kennzeichen erfassen;
+
+:Kennzeichen in Datenbank suchen;
+
+if (Fahrzeug gefunden?) then (ja)
+  :Aktives Ticket für Fahrzeug suchen;
+
+  if (Aktives Ticket gefunden?) then (ja)
+    if (Ticket ist Dauerticket?) then (ja)
+      if (Dauerticket noch gültig?) then (ja)
+        :Schranke öffnen;
+        :Ausfahrtsprotokoll erstellen;
+        :Ticket als abgeschlossen markieren;
+        :Parkplatz als frei markieren;
+        stop
+      else (nein)
+        :Fehlermeldung: Dauerticket abgelaufen;
+        stop
+      endif
+    else (nein - Stundenticket)
+      :Zahlungsstatus prüfen;
+
+      if (Zahlung erfolgreich?) then (ja)
+        :Schranke öffnen;
+        :Ausfahrtsprotokoll erstellen;
+        :Ticket als abgeschlossen markieren;
+        :Parkplatz als frei markieren;
+        stop
+      else (nein)
+        :Fehlermeldung: Bitte erst zahlen;
+        stop
+      endif
+    endif
+  else (nein)
+    :Fehlermeldung: Kein aktives Ticket;
+    stop
+  endif
+else (nein)
+  :Fehlermeldung: Fahrzeug nicht gefunden;
+  stop
+endif
+
+stop
+
+@enduml
