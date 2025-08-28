@@ -1,0 +1,20 @@
+@startuml Struktogramm-Schrankenoeffnung
+title Struktogramm: Schrankenöffnung mit Zahlungsprüfung
+
+start
+
+:Kennzeichen erfassen;
+:Kennzeichen in Datenbank suchen;
+
+if (Fahrzeug gefunden?) then (Ja)
+    if (Zahlung erfolgt?) then (Ja)
+        :Schranke öffnen;
+    else (Nein)
+        :Zahlung anfordern;
+    endif
+else (Nein)
+    :Fehlermeldung ausgeben;
+endif
+
+stop
+@enduml
