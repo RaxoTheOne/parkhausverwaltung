@@ -1,0 +1,94 @@
+PSEUDOCODE: Schrankenöffnung mit Zahlungsprüfung
+==================================================
+
+FUNKTION schrankeOeffnen(kennzeichen, parkhausId, bildPfad)
+BEGINN
+
+    // 1. Fahrzeug in Datenbank suchen
+    fahrzeug = sucheFahrzeugNachKennzeichen(kennzeichen)
+
+    WENN fahrzeug NICHT gefunden DANN
+        FEHLER "Fahrzeug nicht gefunden"
+        BEENDE
+    ENDE WENN
+
+    // 2. Aktives Ticket für Fahrzeug suchen
+    ticket = sucheAktivesTicket(fahrzeug.id, parkhausId)
+
+    WENN ticket NICHT gefunden DANN
+        FEHLER "Kein aktives Ticket gefunden"
+        BEENDE
+    ENDE WENN
+
+    // 3. Prüfe Ticket-Typ und Zahlungsstatus
+    WENN ticket.istDauerticket() DANN
+
+        // Dauerticket: Prüfe Gültigkeit
+        WENN ticket.gueltigBis < aktuelleZeit() DANN
+            FEHLER "Dauerticket ist abgelaufen"
+            BEENDE
+        ENDE WENN
+
+        // Dauerticket ist gültig - Schranke öffnen
+        schrankeOeffnen()
+
+    SONST
+
+        // Stundenticket: Prüfe Zahlung
+        zahlung = sucheErfolgreicheZahlung(ticket.id)
+
+        WENN zahlung NICHT gefunden DANN
+            FEHLER "Bitte erst am Kassenautomaten zahlen"
+            BEENDE
+        ENDE WENN
+
+        // Zahlung erfolgreich - Schranke öffnen
+        schrankeOeffnen()
+
+    ENDE WENN
+
+    // 4. Nach erfolgreicher Schrankenöffnung: Daten aktualisieren
+
+    // Parkplatz als frei markieren
+    parkplatz = sucheBesetztenParkplatz(parkhausId)
+    WENN parkplatz gefunden DANN
+        parkplatz.status = "frei"
+        parkplatz.speichern()
+    ENDE WENN
+
+    // Ticket als abgeschlossen markieren
+    ticket.ausfahrtsZeit = aktuelleZeit()
+    ticket.status = "abgeschlossen"
+    ticket.speichern()
+
+    // Ausfahrtsprotokoll erstellen
+    einAusfahrt = erstelleEinAusfahrt({
+        parkhausId: parkhausId,
+        fahrzeugId: fahrzeug.id,
+        richtung: "ausfahrt",
+        zeitpunkt: aktuelleZeit(),
+        kennzeichenBildPfad: bildPfad,
+        schrankeGeoeffnet: true
+    })
+
+    // 5. Erfolgreiche Rückgabe
+    RÜCKGABE {
+        ticket: ticket,
+        parkplatz: parkplatz,
+        einAusfahrt: einAusfahrt
+    }
+
+ENDE FUNKTION
+
+// Hilfsfunktionen
+FUNKTION schrankeOeffnen()
+BEGINN
+    // Hardware-Steuerung für Schranke
+    schranke.oeffnen()
+    LOG("Schranke geöffnet")
+ENDE FUNKTION
+
+FUNKTION aktuelleZeit()
+BEGINN
+    RÜCKGABE jetzt()
+ENDE FUNKTION
