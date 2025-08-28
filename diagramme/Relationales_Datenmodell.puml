@@ -1,0 +1,68 @@
+@startuml Relationales_Datenmodell
+
+title Relationales Datenmodell - Parkhausverwaltung
+
+class Parkhaeuser {
+  +id : INT
+  name : VARCHAR
+  anzahl_ebenen : INT
+  parkplaetze_pro_ebene : INT
+  preis_pro_stunde : DECIMAL
+}
+
+class Parkplaetze {
+  +id : INT
+  parkhaus_id : INT
+  ebene : INT
+  parkplatz_nummer : INT
+  status : VARCHAR
+}
+
+class Fahrzeuge {
+  +id : INT
+  kennzeichen : VARCHAR
+  marke : VARCHAR
+  modell : VARCHAR
+  farbe : VARCHAR
+}
+
+class Tickets {
+  +id : INT
+  fahrzeug_id : INT
+  parkhaus_id : INT
+  ticket_typ : VARCHAR
+  einfahrts_zeit : DATETIME
+  ausfahrts_zeit : DATETIME
+  gezahlter_betrag : DECIMAL
+  status : VARCHAR
+}
+
+class Zahlungen {
+  +id : INT
+  ticket_id : INT
+  zahlungsart : VARCHAR
+  betrag : DECIMAL
+  zahlungs_zeit : DATETIME
+  status : VARCHAR
+}
+
+class EinAusfahrten {
+  +id : INT
+  parkhaus_id : INT
+  fahrzeug_id : INT
+  richtung : VARCHAR
+  zeitpunkt : DATETIME
+  schranke_geoeffnet : BOOLEAN
+}
+
+Parkhaeuser ||--o{ Parkplaetze
+Parkhaeuser ||--o{ Tickets
+Parkhaeuser ||--o{ EinAusfahrten
+
+Fahrzeuge ||--o{ Tickets
+Fahrzeuge ||--o{ EinAusfahrten
+
+Tickets ||--o{ Zahlungen
+Tickets ||--o{ EinAusfahrten
+
+@enduml

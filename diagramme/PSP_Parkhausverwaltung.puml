@@ -1,0 +1,183 @@
+@startuml PSP_Parkhausverwaltung
+
+title PSP - PROZESSSTRUKTURPLAN - Parkhausverwaltung
+
+' Hauptstruktur (Level 0)
+package "PARKHAUSVERWALTUNG" {
+    package "1.0 Benutzeroberflaeche" {
+        package "1.1 Web-Interface" {
+            [1.1.1 Parkhaus-Uebersicht]
+            [1.1.2 Ein-/Ausfahrt-Formulare]
+            [1.1.3 Kassenautomat-Simulation]
+            [1.1.4 Verwaltungsbereich]
+            [1.1.5 Responsive Design]
+        }
+
+        package "1.2 API-Schnittstelle" {
+            [1.2.1 REST-Controller]
+            [1.2.2 Request-Validierung]
+            [1.2.3 Response-Formatierung]
+            [1.2.4 API-Dokumentation]
+            [1.2.5 Rate-Limiting]
+        }
+
+        package "1.3 Kassenautomat-Interface" {
+            [1.3.1 Zahlungsabwicklung]
+            [1.3.2 Ticket-Validierung]
+            [1.3.3 Rueckgeld-Berechnung]
+            [1.3.4 Quittungsdruck]
+        }
+
+        package "1.4 Schrankensteuerung-Interface" {
+            [1.4.1 Einfahrt-Steuerung]
+            [1.4.2 Ausfahrt-Steuerung]
+            [1.4.3 Notfall-Steuerung]
+            [1.4.4 Status-Monitoring]
+        }
+    }
+
+    package "2.0 Geschaeftslogik" {
+        package "2.1 Parkhausverwaltung" {
+            [2.1.1 Parkhaus-Erstellung]
+            [2.1.2 Konfiguration]
+            [2.1.3 Statistiken]
+            [2.1.4 Belegungsgrad]
+        }
+
+        package "2.2 Ein-/Ausfahrt-Management" {
+            [2.2.1 Einfahrt-Erfassung]
+            [2.2.2 Ausfahrt-Erfassung]
+            [2.2.3 Kennzeichen-Erkennung]
+            [2.2.4 Foto-Erfassung]
+        }
+
+        package "2.3 Ticket-Management" {
+            [2.3.1 Ticket-Erstellung]
+            [2.3.2 Ticket-Validierung]
+            [2.3.3 Ticket-Status]
+            [2.3.4 Dauerticket-Verwaltung]
+        }
+
+        package "2.4 Zahlungsabwicklung" {
+            [2.4.1 Barzahlung]
+            [2.4.2 Kreditkartenzahlung]
+            [2.4.3 Ueberweisung]
+            [2.4.4 Rueckerstattung]
+        }
+
+        package "2.5 Parkplatzverwaltung" {
+            [2.5.1 Parkplatz-Zuweisung]
+            [2.5.2 Status-Verwaltung]
+            [2.5.3 Reservierung]
+            [2.5.4 Wartung]
+        }
+
+        package "2.6 Schrankensteuerung" {
+            [2.6.1 Schranke-oeffnen]
+            [2.6.2 Schranke-schliessen]
+            [2.6.3 Notfall-oeffnung]
+            [2.6.4 Status-Monitoring]
+        }
+    }
+
+    package "3.0 Datenzugriff" {
+        package "3.1 Datenbankverbindung" {
+            [3.1.1 Connection-Pool]
+            [3.1.2 Transaktions-Management]
+            [3.1.3 Backup-System]
+        }
+
+        package "3.2 Modelle (Eloquent ORM)" {
+            [3.2.1 Parkhaus-Model]
+            [3.2.2 Parkplatz-Model]
+            [3.2.3 Ticket-Model]
+            [3.2.4 Fahrzeug-Model]
+            [3.2.5 Zahlung-Model]
+        }
+
+        package "3.3 Repository-Pattern" {
+            [3.3.1 Parkhaus-Repository]
+            [3.3.2 Ticket-Repository]
+            [3.3.3 Zahlung-Repository]
+        }
+
+        package "3.4 Datenbank-Migrationen" {
+            [3.4.1 Schema-Updates]
+            [3.4.2 Daten-Migration]
+            [3.4.3 Rollback-Funktionen]
+        }
+    }
+
+    package "4.0 Externe Schnittstellen" {
+        package "4.1 Zahlungsabwicklung" {
+            [4.1.1 Bank-API]
+            [4.1.2 PayPal-Integration]
+            [4.1.3 Kreditkarten-Provider]
+        }
+
+        package "4.2 Videoueberwachung" {
+            [4.2.1 Kamera-Steuerung]
+            [4.2.2 Kennzeichen-Erkennung]
+            [4.2.3 Video-Speicherung]
+        }
+
+        package "4.3 Hardware-Steuerung" {
+            [4.3.1 Schranken-Controller]
+            [4.3.2 Kassenautomat-Steuerung]
+            [4.3.3 LED-Anzeigen]
+        }
+
+        package "4.4 Benachrichtigungssystem" {
+            [4.4.1 E-Mail-Service]
+            [4.4.2 SMS-Service]
+            [4.4.3 Push-Benachrichtigungen]
+        }
+    }
+
+    package "5.0 Hilfsmodule" {
+        package "5.1 Validierung" {
+            [5.1.1 Eingabe-Validierung]
+            [5.1.2 Geschaeftsregel-Validierung]
+            [5.1.3 Datenintegritaet]
+        }
+
+        package "5.2 Authentifizierung" {
+            [5.2.1 Login-System]
+            [5.2.2 Rollen-Management]
+            [5.2.3 Session-Management]
+        }
+
+        package "5.3 Logging" {
+            [5.3.1 Fehler-Logging]
+            [5.3.2 Audit-Logging]
+            [5.3.3 Performance-Monitoring]
+        }
+
+        package "5.4 Konfiguration" {
+            [5.4.1 Umgebungsvariablen]
+            [5.4.2 Konfigurationsdateien]
+            [5.4.3 Dynamische Konfiguration]
+        }
+
+        package "5.5 Utilities" {
+            [5.5.1 Hilfsfunktionen]
+            [5.5.2 Formatierung]
+            [5.5.3 Berechnungen]
+        }
+    }
+}
+
+note bottom
+  DIAGRAMMTYP: PSP (Prozessstrukturplan)
+  ZIEL: Hierarchische Darstellung der Systemstruktur
+
+  Struktur:
+  - Level 0: Hauptsystem
+  - Level 1: Hauptmodule (5 Bereiche)
+  - Level 2: Detaillierte Module
+  - Level 3: Einzelne Komponenten
+
+  Anwendung: Projektplanung, Modulstruktur, Abhaengigkeiten
+end note
+
+@enduml

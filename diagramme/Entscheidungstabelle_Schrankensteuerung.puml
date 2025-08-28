@@ -1,0 +1,65 @@
+@startuml Entscheidungstabelle_Schrankensteuerung
+
+title Entscheidungstabelle - Schrankensteuerung
+
+note as C1
+  C1: Ticket vorhanden
+end note
+
+note as C2
+  C2: Ticket bezahlt
+end note
+
+note as C3
+  C3: Ticket gueltig
+end note
+
+note as C4
+  C4: Fahrzeug erkannt
+end note
+
+note as C5
+  C5: Kennzeichen stimmt ueberein
+end note
+
+note as C6
+  C6: Parkplatz freigegeben
+end note
+
+note as C7
+  C7: Zahlung erfolgreich
+end note
+
+note as C8
+  C8: System funktionsfaehig
+end note
+
+note as A1
+  A1: Schranke oeffnen
+end note
+
+note as A2
+  A2: Schranke geschlossen halten
+end note
+
+note as A3
+  A3: Warnung anzeigen
+end note
+
+note as A4
+  A4: Parkhausverwalter benachrichtigen
+end note
+
+note as A5
+  A5: Ticket einbehalten
+end note
+
+note as A6
+  A6: Fehlermeldung anzeigen
+end note
+
+note as A7
+  A7: Notfall-Button aktivieren
+end note
+
+@enduml
